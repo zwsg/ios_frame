@@ -36,6 +36,7 @@
 		FF990AC52182F4ED0064E598 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AC12182F4ED0064E598 /* 2.png */; };
 		FF990AC62182F4ED0064E598 /* XLTieBarLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AC32182F4ED0064E598 /* XLTieBarLoading.m */; };
 		FF990AC92182F7B20064E598 /* UIColor+ZWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AC82182F7B20064E598 /* UIColor+ZWColor.m */; };
+		FF990ACC218302580064E598 /* ZWTimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990ACB218302580064E598 /* ZWTimeUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,8 @@
 		FF990AC32182F4ED0064E598 /* XLTieBarLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTieBarLoading.m; sourceTree = "<group>"; };
 		FF990AC72182F7B20064E598 /* UIColor+ZWColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZWColor.h"; sourceTree = "<group>"; };
 		FF990AC82182F7B20064E598 /* UIColor+ZWColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZWColor.m"; sourceTree = "<group>"; };
+		FF990ACA218302580064E598 /* ZWTimeUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTimeUtil.h; sourceTree = "<group>"; };
+		FF990ACB218302580064E598 /* ZWTimeUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTimeUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +269,8 @@
 				FF990A9E218166E70064E598 /* ZWJsonUtil.m */,
 				FF990AA021819E490064E598 /* ZWTipsUtil.h */,
 				FF990AA121819E490064E598 /* ZWTipsUtil.m */,
+				FF990ACA218302580064E598 /* ZWTimeUtil.h */,
+				FF990ACB218302580064E598 /* ZWTimeUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -549,6 +554,7 @@
 				FF551AFA213524BF001EC09F /* AppDelegate.m in Sources */,
 				FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */,
 				FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */,
+				FF990ACC218302580064E598 /* ZWTimeUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
