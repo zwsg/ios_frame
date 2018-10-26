@@ -1,0 +1,32 @@
+//___HEADERFILE___
+/*
+ * zwsg_frame 
+ * zwsg_frame.pch 
+ * Created by xhb on 2018/8/28. 
+ * QQ：692061841   	WeChat：zwsg_wechat
+ * Copyright © 2018年 ZWSG. All rights reserved.
+
+ *   █████▒█    ██  ▄████▄   ██ ▄█▀       ██████╗ ██╗   ██╗ ██████╗
+ * ▓██   ▒ ██  ▓██▒▒██▀ ▀█   ██▄█▒        ██╔══██╗██║   ██║██╔════╝
+ * ▒████ ░▓██  ▒██░▒▓█    ▄ ▓███▄░        ██████╔╝██║   ██║██║  ███╗
+ * ░▓█▒  ░▓▓█  ░██░▒▓▓▄ ▄██▒▓██ █▄        ██╔══██╗██║   ██║██║   ██║
+ * ░▒█░   ▒▒█████▓ ▒ ▓███▀ ░▒██▒ █▄       ██████╔╝╚██████╔╝╚██████╔╝
+ *  ▒ ░   ░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░▒ ▒▒ ▓▒       ╚═════╝  ╚═════╝  ╚═════╝
+ *  ░     ░░▒░ ░ ░   ░  ▒   ░ ░▒ ▒░
+ *  ░ ░    ░░░ ░ ░ ░        ░ ░░ ░
+ *           ░     ░ ░      ░  ░
+ */
+
+#ifndef zwsg_frame_pch
+#define zwsg_frame_pch
+
+#import "AppConfig.h"
+#import "HttpConfig.h"
+#import "AppDelegate.h"
+#import "NSDictionary+ZWDictionary.h"
+#import "ZWJsonUtil.h"
+#import "ZWTipsUtil.h"
+#import "ZWStringUtil.h"
+#import "ZWHelpUtil.h"
+#import "UIColor+ZWColor.h"
+#endif /* zwsg_frame_pch */

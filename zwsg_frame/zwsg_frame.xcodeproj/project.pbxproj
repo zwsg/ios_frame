@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D862B815E2A5A4C027D735 /* Pods_zwsg_frame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB957DD5A86A38E627ACE21A /* Pods_zwsg_frame.framework */; };
+		FF551AFA213524BF001EC09F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF551AF9213524BF001EC09F /* AppDelegate.m */; };
+		FF551AFD213524BF001EC09F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF551AFC213524BF001EC09F /* ViewController.m */; };
+		FF551B03213524BF001EC09F /* zwsg_frame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF551B01213524BF001EC09F /* zwsg_frame.xcdatamodeld */; };
+		FF551B05213524BF001EC09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF551B04213524BF001EC09F /* Assets.xcassets */; };
+		FF551B0B213524BF001EC09F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF551B0A213524BF001EC09F /* main.m */; };
+		FF551B15213524BF001EC09F /* zwsg_frameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF551B14213524BF001EC09F /* zwsg_frameTests.m */; };
+		FF551B20213524BF001EC09F /* zwsg_frameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF551B1F213524BF001EC09F /* zwsg_frameUITests.m */; };
+		FF551B41213532F9001EC09F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF551B40213532F9001EC09F /* LaunchScreen.storyboard */; };
+		FF551B4921353F31001EC09F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF551B4821353F31001EC09F /* BaseViewController.m */; };
+		FF551B5221362A2E001EC09F /* ZWStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF551B5121362A2E001EC09F /* ZWStringUtil.m */; };
+		FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9221815CA80064E598 /* ZWHelpUtil.m */; };
+		FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9521815F210064E598 /* ZWLoginUtil.m */; };
+		FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A972181627E0064E598 /* ZWHttpUtil.m */; };
+		FF990A9C218163C90064E598 /* NSDictionary+ZWDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9B218163C90064E598 /* NSDictionary+ZWDictionary.m */; };
+		FF990A9F218166E70064E598 /* ZWJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9E218166E70064E598 /* ZWJsonUtil.m */; };
+		FF990AA221819E490064E598 /* ZWTipsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AA121819E490064E598 /* ZWTipsUtil.m */; };
+		FF990AAB2182A1150064E598 /* JohnAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AA62182A1150064E598 /* JohnAlertManager.m */; };
+		FF990AAC2182A1150064E598 /* JohnTopAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AA82182A1150064E598 /* JohnTopAlert.m */; };
+		FF990AB42182E68E0064E598 /* bannerTipWarm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AAE2182E68D0064E598 /* bannerTipWarm@2x.png */; };
+		FF990AB52182E68E0064E598 /* bannerTipFaild@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AAF2182E68D0064E598 /* bannerTipFaild@3x.png */; };
+		FF990AB62182E68E0064E598 /* bannerTipSuccess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AB02182E68E0064E598 /* bannerTipSuccess@2x.png */; };
+		FF990AB72182E68E0064E598 /* bannerTipWarm@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AB12182E68E0064E598 /* bannerTipWarm@3x.png */; };
+		FF990AB82182E68E0064E598 /* bannerTipSuccess@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AB22182E68E0064E598 /* bannerTipSuccess@3x.png */; };
+		FF990AB92182E68E0064E598 /* bannerTipFaild@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AB32182E68E0064E598 /* bannerTipFaild@2x.png */; };
+		FF990AC42182F4ED0064E598 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AC02182F4ED0064E598 /* 1.png */; };
+		FF990AC52182F4ED0064E598 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AC12182F4ED0064E598 /* 2.png */; };
+		FF990AC62182F4ED0064E598 /* XLTieBarLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AC32182F4ED0064E598 /* XLTieBarLoading.m */; };
+		FF990AC92182F7B20064E598 /* UIColor+ZWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AC82182F7B20064E598 /* UIColor+ZWColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF551B11213524BF001EC09F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF551AED213524BF001EC09F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF551AF4213524BF001EC09F;
+			remoteInfo = zwsg_frame;
+		};
+		FF551B1C213524BF001EC09F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF551AED213524BF001EC09F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF551AF4213524BF001EC09F;
+			remoteInfo = zwsg_frame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AC920DFBFBECEE221E6B949 /* Pods-zwsg_frame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zwsg_frame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zwsg_frame/Pods-zwsg_frame.debug.xcconfig"; sourceTree = "<group>"; };
+		B816D76CB185A7C3996BA340 /* Pods-zwsg_frame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zwsg_frame.release.xcconfig"; path = "Pods/Target Support Files/Pods-zwsg_frame/Pods-zwsg_frame.release.xcconfig"; sourceTree = "<group>"; };
+		FB957DD5A86A38E627ACE21A /* Pods_zwsg_frame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zwsg_frame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF551AF5213524BF001EC09F /* zwsg_frame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zwsg_frame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF551AF8213524BF001EC09F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF551AF9213524BF001EC09F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF551AFB213524BF001EC09F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF551AFC213524BF001EC09F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF551B02213524BF001EC09F /* zwsg_frame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zwsg_frame.xcdatamodel; sourceTree = "<group>"; };
+		FF551B04213524BF001EC09F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF551B09213524BF001EC09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF551B0A213524BF001EC09F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF551B10213524BF001EC09F /* zwsg_frameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zwsg_frameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF551B14213524BF001EC09F /* zwsg_frameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zwsg_frameTests.m; sourceTree = "<group>"; };
+		FF551B16213524BF001EC09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF551B1B213524BF001EC09F /* zwsg_frameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zwsg_frameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF551B1F213524BF001EC09F /* zwsg_frameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zwsg_frameUITests.m; sourceTree = "<group>"; };
+		FF551B21213524BF001EC09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF551B40213532F9001EC09F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF551B45213537C7001EC09F /* HttpConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpConfig.h; sourceTree = "<group>"; };
+		FF551B4621353994001EC09F /* AppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		FF551B4721353F31001EC09F /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FF551B4821353F31001EC09F /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FF551B4A21354159001EC09F /* zwsg_frame.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zwsg_frame.pch; sourceTree = "<group>"; };
+		FF551B5021362A2E001EC09F /* ZWStringUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWStringUtil.h; sourceTree = "<group>"; };
+		FF551B5121362A2E001EC09F /* ZWStringUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWStringUtil.m; sourceTree = "<group>"; };
+		FF990A9121815CA80064E598 /* ZWHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWHelpUtil.h; sourceTree = "<group>"; };
+		FF990A9221815CA80064E598 /* ZWHelpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWHelpUtil.m; sourceTree = "<group>"; };
+		FF990A9421815F210064E598 /* ZWLoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLoginUtil.h; sourceTree = "<group>"; };
+		FF990A9521815F210064E598 /* ZWLoginUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWLoginUtil.m; sourceTree = "<group>"; };
+		FF990A972181627E0064E598 /* ZWHttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWHttpUtil.m; sourceTree = "<group>"; };
+		FF990A982181627E0064E598 /* ZWHttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWHttpUtil.h; sourceTree = "<group>"; };
+		FF990A9A218163C90064E598 /* NSDictionary+ZWDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZWDictionary.h"; sourceTree = "<group>"; };
+		FF990A9B218163C90064E598 /* NSDictionary+ZWDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZWDictionary.m"; sourceTree = "<group>"; };
+		FF990A9D218166E70064E598 /* ZWJsonUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWJsonUtil.h; sourceTree = "<group>"; };
+		FF990A9E218166E70064E598 /* ZWJsonUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWJsonUtil.m; sourceTree = "<group>"; };
+		FF990AA021819E490064E598 /* ZWTipsUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTipsUtil.h; sourceTree = "<group>"; };
+		FF990AA121819E490064E598 /* ZWTipsUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTipsUtil.m; sourceTree = "<group>"; };
+		FF990AA52182A1150064E598 /* JohnAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JohnAlertManager.h; sourceTree = "<group>"; };
+		FF990AA62182A1150064E598 /* JohnAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JohnAlertManager.m; sourceTree = "<group>"; };
+		FF990AA72182A1150064E598 /* JohnTopAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JohnTopAlert.h; sourceTree = "<group>"; };
+		FF990AA82182A1150064E598 /* JohnTopAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JohnTopAlert.m; sourceTree = "<group>"; };
+		FF990AAE2182E68D0064E598 /* bannerTipWarm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerTipWarm@2x.png"; sourceTree = "<group>"; };
+		FF990AAF2182E68D0064E598 /* bannerTipFaild@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerTipFaild@3x.png"; sourceTree = "<group>"; };
+		FF990AB02182E68E0064E598 /* bannerTipSuccess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerTipSuccess@2x.png"; sourceTree = "<group>"; };
+		FF990AB12182E68E0064E598 /* bannerTipWarm@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerTipWarm@3x.png"; sourceTree = "<group>"; };
+		FF990AB22182E68E0064E598 /* bannerTipSuccess@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerTipSuccess@3x.png"; sourceTree = "<group>"; };
+		FF990AB32182E68E0064E598 /* bannerTipFaild@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerTipFaild@2x.png"; sourceTree = "<group>"; };
+		FF990AC02182F4ED0064E598 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		FF990AC12182F4ED0064E598 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		FF990AC22182F4ED0064E598 /* XLTieBarLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTieBarLoading.h; sourceTree = "<group>"; };
+		FF990AC32182F4ED0064E598 /* XLTieBarLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTieBarLoading.m; sourceTree = "<group>"; };
+		FF990AC72182F7B20064E598 /* UIColor+ZWColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZWColor.h"; sourceTree = "<group>"; };
+		FF990AC82182F7B20064E598 /* UIColor+ZWColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZWColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF551AF2213524BF001EC09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D862B815E2A5A4C027D735 /* Pods_zwsg_frame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF551B0D213524BF001EC09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF551B18213524BF001EC09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524C5A748B9B78D42D6BFA15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB957DD5A86A38E627ACE21A /* Pods_zwsg_frame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE63C002867E8595FEC17DA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AC920DFBFBECEE221E6B949 /* Pods-zwsg_frame.debug.xcconfig */,
+				B816D76CB185A7C3996BA340 /* Pods-zwsg_frame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF551AEC213524BE001EC09F = {
+			isa = PBXGroup;
+			children = (
+				FF551AF7213524BF001EC09F /* zwsg_frame */,
+				FF551B13213524BF001EC09F /* zwsg_frameTests */,
+				FF551B1E213524BF001EC09F /* zwsg_frameUITests */,
+				FF551AF6213524BF001EC09F /* Products */,
+				CE63C002867E8595FEC17DA6 /* Pods */,
+				524C5A748B9B78D42D6BFA15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF551AF6213524BF001EC09F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF551AF5213524BF001EC09F /* zwsg_frame.app */,
+				FF551B10213524BF001EC09F /* zwsg_frameTests.xctest */,
+				FF551B1B213524BF001EC09F /* zwsg_frameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF551AF7213524BF001EC09F /* zwsg_frame */ = {
+			isa = PBXGroup;
+			children = (
+				FF551AF8213524BF001EC09F /* AppDelegate.h */,
+				FF551AF9213524BF001EC09F /* AppDelegate.m */,
+				FF551B36213525CF001EC09F /* config */,
+				FF551B3C213526FE001EC09F /* Functions */,
+				FF551B3B213526FE001EC09F /* Cells */,
+				FF551B3A21352697001EC09F /* Utils */,
+				FF990AA32182A0A60064E598 /* Libs */,
+				FF551B3821352647001EC09F /* BaseControllers */,
+				FF551B37213525F4001EC09F /* resource */,
+				FF551B3921352697001EC09F /* Categorys */,
+				FF551B3D21352775001EC09F /* Others */,
+			);
+			path = zwsg_frame;
+			sourceTree = "<group>";
+		};
+		FF551B13213524BF001EC09F /* zwsg_frameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF551B14213524BF001EC09F /* zwsg_frameTests.m */,
+				FF551B16213524BF001EC09F /* Info.plist */,
+			);
+			path = zwsg_frameTests;
+			sourceTree = "<group>";
+		};
+		FF551B1E213524BF001EC09F /* zwsg_frameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF551B1F213524BF001EC09F /* zwsg_frameUITests.m */,
+				FF551B21213524BF001EC09F /* Info.plist */,
+			);
+			path = zwsg_frameUITests;
+			sourceTree = "<group>";
+		};
+		FF551B36213525CF001EC09F /* config */ = {
+			isa = PBXGroup;
+			children = (
+				FF551B45213537C7001EC09F /* HttpConfig.h */,
+				FF551B4621353994001EC09F /* AppConfig.h */,
+				FF551B4A21354159001EC09F /* zwsg_frame.pch */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		FF551B37213525F4001EC09F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				FF551B04213524BF001EC09F /* Assets.xcassets */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		FF551B3821352647001EC09F /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF551B4721353F31001EC09F /* BaseViewController.h */,
+				FF551B4821353F31001EC09F /* BaseViewController.m */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		FF551B3921352697001EC09F /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				FF990A9A218163C90064E598 /* NSDictionary+ZWDictionary.h */,
+				FF990A9B218163C90064E598 /* NSDictionary+ZWDictionary.m */,
+				FF990AC72182F7B20064E598 /* UIColor+ZWColor.h */,
+				FF990AC82182F7B20064E598 /* UIColor+ZWColor.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		FF551B3A21352697001EC09F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF551B5021362A2E001EC09F /* ZWStringUtil.h */,
+				FF551B5121362A2E001EC09F /* ZWStringUtil.m */,
+				FF990A9121815CA80064E598 /* ZWHelpUtil.h */,
+				FF990A9221815CA80064E598 /* ZWHelpUtil.m */,
+				FF990A9421815F210064E598 /* ZWLoginUtil.h */,
+				FF990A9521815F210064E598 /* ZWLoginUtil.m */,
+				FF990A982181627E0064E598 /* ZWHttpUtil.h */,
+				FF990A972181627E0064E598 /* ZWHttpUtil.m */,
+				FF990A9D218166E70064E598 /* ZWJsonUtil.h */,
+				FF990A9E218166E70064E598 /* ZWJsonUtil.m */,
+				FF990AA021819E490064E598 /* ZWTipsUtil.h */,
+				FF990AA121819E490064E598 /* ZWTipsUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FF551B3B213526FE001EC09F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FF551B3C213526FE001EC09F /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				FF551AFB213524BF001EC09F /* ViewController.h */,
+				FF551AFC213524BF001EC09F /* ViewController.m */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		FF551B3D21352775001EC09F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FF551B09213524BF001EC09F /* Info.plist */,
+				FF551B0A213524BF001EC09F /* main.m */,
+				FF551B01213524BF001EC09F /* zwsg_frame.xcdatamodeld */,
+				FF551B40213532F9001EC09F /* LaunchScreen.storyboard */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		FF990AA32182A0A60064E598 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				FF990ABE2182F4ED0064E598 /* XLTieBarLoading */,
+				FF990AA42182A1150064E598 /* JohnAlert */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		FF990AA42182A1150064E598 /* JohnAlert */ = {
+			isa = PBXGroup;
+			children = (
+				FF990AB32182E68E0064E598 /* bannerTipFaild@2x.png */,
+				FF990AAF2182E68D0064E598 /* bannerTipFaild@3x.png */,
+				FF990AB02182E68E0064E598 /* bannerTipSuccess@2x.png */,
+				FF990AB22182E68E0064E598 /* bannerTipSuccess@3x.png */,
+				FF990AAE2182E68D0064E598 /* bannerTipWarm@2x.png */,
+				FF990AB12182E68E0064E598 /* bannerTipWarm@3x.png */,
+				FF990AA52182A1150064E598 /* JohnAlertManager.h */,
+				FF990AA62182A1150064E598 /* JohnAlertManager.m */,
+				FF990AA72182A1150064E598 /* JohnTopAlert.h */,
+				FF990AA82182A1150064E598 /* JohnTopAlert.m */,
+			);
+			path = JohnAlert;
+			sourceTree = "<group>";
+		};
+		FF990ABE2182F4ED0064E598 /* XLTieBarLoading */ = {
+			isa = PBXGroup;
+			children = (
+				FF990ABF2182F4ED0064E598 /* Images */,
+				FF990AC22182F4ED0064E598 /* XLTieBarLoading.h */,
+				FF990AC32182F4ED0064E598 /* XLTieBarLoading.m */,
+			);
+			path = XLTieBarLoading;
+			sourceTree = "<group>";
+		};
+		FF990ABF2182F4ED0064E598 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FF990AC02182F4ED0064E598 /* 1.png */,
+				FF990AC12182F4ED0064E598 /* 2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF551AF4213524BF001EC09F /* zwsg_frame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF551B24213524BF001EC09F /* Build configuration list for PBXNativeTarget "zwsg_frame" */;
+			buildPhases = (
+				0BF6354C6880EAC2989990FD /* [CP] Check Pods Manifest.lock */,
+				FF551AF1213524BF001EC09F /* Sources */,
+				FF551AF2213524BF001EC09F /* Frameworks */,
+				FF551AF3213524BF001EC09F /* Resources */,
+				0C744D96D121586B67A97B3A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zwsg_frame;
+			productName = zwsg_frame;
+			productReference = FF551AF5213524BF001EC09F /* zwsg_frame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF551B0F213524BF001EC09F /* zwsg_frameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF551B27213524BF001EC09F /* Build configuration list for PBXNativeTarget "zwsg_frameTests" */;
+			buildPhases = (
+				FF551B0C213524BF001EC09F /* Sources */,
+				FF551B0D213524BF001EC09F /* Frameworks */,
+				FF551B0E213524BF001EC09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF551B12213524BF001EC09F /* PBXTargetDependency */,
+			);
+			name = zwsg_frameTests;
+			productName = zwsg_frameTests;
+			productReference = FF551B10213524BF001EC09F /* zwsg_frameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF551B1A213524BF001EC09F /* zwsg_frameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF551B2A213524BF001EC09F /* Build configuration list for PBXNativeTarget "zwsg_frameUITests" */;
+			buildPhases = (
+				FF551B17213524BF001EC09F /* Sources */,
+				FF551B18213524BF001EC09F /* Frameworks */,
+				FF551B19213524BF001EC09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF551B1D213524BF001EC09F /* PBXTargetDependency */,
+			);
+			name = zwsg_frameUITests;
+			productName = zwsg_frameUITests;
+			productReference = FF551B1B213524BF001EC09F /* zwsg_frameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF551AED213524BF001EC09F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ZWSG;
+				TargetAttributes = {
+					FF551AF4213524BF001EC09F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					FF551B0F213524BF001EC09F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF551AF4213524BF001EC09F;
+					};
+					FF551B1A213524BF001EC09F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF551AF4213524BF001EC09F;
+					};
+				};
+			};
+			buildConfigurationList = FF551AF0213524BF001EC09F /* Build configuration list for PBXProject "zwsg_frame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF551AEC213524BE001EC09F;
+			productRefGroup = FF551AF6213524BF001EC09F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF551AF4213524BF001EC09F /* zwsg_frame */,
+				FF551B0F213524BF001EC09F /* zwsg_frameTests */,
+				FF551B1A213524BF001EC09F /* zwsg_frameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF551AF3213524BF001EC09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF990AC42182F4ED0064E598 /* 1.png in Resources */,
+				FF551B05213524BF001EC09F /* Assets.xcassets in Resources */,
+				FF990AC52182F4ED0064E598 /* 2.png in Resources */,
+				FF990AB62182E68E0064E598 /* bannerTipSuccess@2x.png in Resources */,
+				FF990AB42182E68E0064E598 /* bannerTipWarm@2x.png in Resources */,
+				FF990AB52182E68E0064E598 /* bannerTipFaild@3x.png in Resources */,
+				FF990AB72182E68E0064E598 /* bannerTipWarm@3x.png in Resources */,
+				FF990AB92182E68E0064E598 /* bannerTipFaild@2x.png in Resources */,
+				FF551B41213532F9001EC09F /* LaunchScreen.storyboard in Resources */,
+				FF990AB82182E68E0064E598 /* bannerTipSuccess@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF551B0E213524BF001EC09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF551B19213524BF001EC09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF6354C6880EAC2989990FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zwsg_frame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C744D96D121586B67A97B3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zwsg_frame/Pods-zwsg_frame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zwsg_frame/Pods-zwsg_frame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF551AF1213524BF001EC09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF551B5221362A2E001EC09F /* ZWStringUtil.m in Sources */,
+				FF551B03213524BF001EC09F /* zwsg_frame.xcdatamodeld in Sources */,
+				FF551B4921353F31001EC09F /* BaseViewController.m in Sources */,
+				FF990A9F218166E70064E598 /* ZWJsonUtil.m in Sources */,
+				FF990AC92182F7B20064E598 /* UIColor+ZWColor.m in Sources */,
+				FF990AAB2182A1150064E598 /* JohnAlertManager.m in Sources */,
+				FF551AFD213524BF001EC09F /* ViewController.m in Sources */,
+				FF551B0B213524BF001EC09F /* main.m in Sources */,
+				FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */,
+				FF990AC62182F4ED0064E598 /* XLTieBarLoading.m in Sources */,
+				FF990AA221819E490064E598 /* ZWTipsUtil.m in Sources */,
+				FF990AAC2182A1150064E598 /* JohnTopAlert.m in Sources */,
+				FF990A9C218163C90064E598 /* NSDictionary+ZWDictionary.m in Sources */,
+				FF551AFA213524BF001EC09F /* AppDelegate.m in Sources */,
+				FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */,
+				FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF551B0C213524BF001EC09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF551B15213524BF001EC09F /* zwsg_frameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF551B17213524BF001EC09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF551B20213524BF001EC09F /* zwsg_frameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF551B12213524BF001EC09F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF551AF4213524BF001EC09F /* zwsg_frame */;
+			targetProxy = FF551B11213524BF001EC09F /* PBXContainerItemProxy */;
+		};
+		FF551B1D213524BF001EC09F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF551AF4213524BF001EC09F /* zwsg_frame */;
+			targetProxy = FF551B1C213524BF001EC09F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF551B22213524BF001EC09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF551B23213524BF001EC09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF551B25213524BF001EC09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC920DFBFBECEE221E6B949 /* Pods-zwsg_frame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/zwsg_frame/config/zwsg_frame.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/zwsg_frame/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZWSG.zwsg-frame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF551B26213524BF001EC09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B816D76CB185A7C3996BA340 /* Pods-zwsg_frame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/zwsg_frame/config/zwsg_frame.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/zwsg_frame/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZWSG.zwsg-frame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FF551B28213524BF001EC09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M5LH8H5T5;
+				INFOPLIST_FILE = zwsg_frameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZWSG.zwsg-frameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zwsg_frame.app/zwsg_frame";
+			};
+			name = Debug;
+		};
+		FF551B29213524BF001EC09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M5LH8H5T5;
+				INFOPLIST_FILE = zwsg_frameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZWSG.zwsg-frameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zwsg_frame.app/zwsg_frame";
+			};
+			name = Release;
+		};
+		FF551B2B213524BF001EC09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M5LH8H5T5;
+				INFOPLIST_FILE = zwsg_frameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZWSG.zwsg-frameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zwsg_frame;
+			};
+			name = Debug;
+		};
+		FF551B2C213524BF001EC09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M5LH8H5T5;
+				INFOPLIST_FILE = zwsg_frameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZWSG.zwsg-frameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zwsg_frame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF551AF0213524BF001EC09F /* Build configuration list for PBXProject "zwsg_frame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF551B22213524BF001EC09F /* Debug */,
+				FF551B23213524BF001EC09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF551B24213524BF001EC09F /* Build configuration list for PBXNativeTarget "zwsg_frame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF551B25213524BF001EC09F /* Debug */,
+				FF551B26213524BF001EC09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF551B27213524BF001EC09F /* Build configuration list for PBXNativeTarget "zwsg_frameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF551B28213524BF001EC09F /* Debug */,
+				FF551B29213524BF001EC09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF551B2A213524BF001EC09F /* Build configuration list for PBXNativeTarget "zwsg_frameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF551B2B213524BF001EC09F /* Debug */,
+				FF551B2C213524BF001EC09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF551B01213524BF001EC09F /* zwsg_frame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF551B02213524BF001EC09F /* zwsg_frame.xcdatamodel */,
+			);
+			currentVersion = FF551B02213524BF001EC09F /* zwsg_frame.xcdatamodel */;
+			path = zwsg_frame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF551AED213524BF001EC09F /* Project object */;
+}

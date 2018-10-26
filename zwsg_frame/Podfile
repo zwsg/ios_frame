@@ -1,0 +1,10 @@
+platform :ios,'8.0'
+
+use_frameworks!
+target ‘zwsg_frame’ do
+    pod 'AFNetworking'
+    pod 'DZNEmptyDataSet'
+    pod 'IQKeyboardManager'
+    pod 'MJRefresh'
+    pod 'Masonry'
+end
