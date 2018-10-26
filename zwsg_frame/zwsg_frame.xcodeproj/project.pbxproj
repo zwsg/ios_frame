@@ -37,6 +37,7 @@
 		FF990AC62182F4ED0064E598 /* XLTieBarLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AC32182F4ED0064E598 /* XLTieBarLoading.m */; };
 		FF990AC92182F7B20064E598 /* UIColor+ZWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AC82182F7B20064E598 /* UIColor+ZWColor.m */; };
 		FF990ACC218302580064E598 /* ZWTimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990ACB218302580064E598 /* ZWTimeUtil.m */; };
+		FF990ACF21830B140064E598 /* ZWTextViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990ACE21830B140064E598 /* ZWTextViewUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,8 @@
 		FF990AC82182F7B20064E598 /* UIColor+ZWColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZWColor.m"; sourceTree = "<group>"; };
 		FF990ACA218302580064E598 /* ZWTimeUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTimeUtil.h; sourceTree = "<group>"; };
 		FF990ACB218302580064E598 /* ZWTimeUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTimeUtil.m; sourceTree = "<group>"; };
+		FF990ACD21830B140064E598 /* ZWTextViewUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTextViewUtil.h; sourceTree = "<group>"; };
+		FF990ACE21830B140064E598 /* ZWTextViewUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTextViewUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +274,8 @@
 				FF990AA121819E490064E598 /* ZWTipsUtil.m */,
 				FF990ACA218302580064E598 /* ZWTimeUtil.h */,
 				FF990ACB218302580064E598 /* ZWTimeUtil.m */,
+				FF990ACD21830B140064E598 /* ZWTextViewUtil.h */,
+				FF990ACE21830B140064E598 /* ZWTextViewUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -544,6 +549,7 @@
 				FF990A9F218166E70064E598 /* ZWJsonUtil.m in Sources */,
 				FF990AC92182F7B20064E598 /* UIColor+ZWColor.m in Sources */,
 				FF990AAB2182A1150064E598 /* JohnAlertManager.m in Sources */,
+				FF990ACF21830B140064E598 /* ZWTextViewUtil.m in Sources */,
 				FF551AFD213524BF001EC09F /* ViewController.m in Sources */,
 				FF551B0B213524BF001EC09F /* main.m in Sources */,
 				FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */,
