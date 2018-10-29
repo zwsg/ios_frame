@@ -32,5 +32,5 @@
 //**********Category******
 #import "UIColor+ZWColor.h"
 #import "NSDictionary+ZWDictionary.h"
-
+#import "UIImageView+WebCache.h"
 #endif /* zwsg_frame_pch */

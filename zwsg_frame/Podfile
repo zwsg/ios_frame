@@ -7,4 +7,5 @@ target ‘zwsg_frame’ do
     pod 'IQKeyboardManager'
     pod 'MJRefresh'
     pod 'Masonry'
+    pod 'SDWebImage'
 end

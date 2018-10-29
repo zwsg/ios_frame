@@ -25,6 +25,10 @@
 #define app_delegate (AppDelegate*)[[UIApplication sharedApplication] delegate]
 //登录缓存
 #define LOGIN_USER (app_delegate).loginUser
+//异步全局线程
+#define kGlobalThread  dispatch_get_global_queue(0, 0)
+//主线程
+#define kMainThread  dispatch_get_main_queue()
 //系统判断
 #define IOS11 [[UIDevice currentDevice].systemVersion floatValue] >= 11.0
 #define IOS10 [[UIDevice currentDevice].systemVersion floatValue] >= 10.0
