@@ -18,6 +18,7 @@
 		FF551B41213532F9001EC09F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF551B40213532F9001EC09F /* LaunchScreen.storyboard */; };
 		FF551B4921353F31001EC09F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF551B4821353F31001EC09F /* BaseViewController.m */; };
 		FF551B5221362A2E001EC09F /* ZWStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF551B5121362A2E001EC09F /* ZWStringUtil.m */; };
+		FF73516B2186936A00D0BE05 /* ZWWordWrapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73516A2186936A00D0BE05 /* ZWWordWrapUtil.m */; };
 		FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9221815CA80064E598 /* ZWHelpUtil.m */; };
 		FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9521815F210064E598 /* ZWLoginUtil.m */; };
 		FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A972181627E0064E598 /* ZWHttpUtil.m */; };
@@ -84,6 +85,8 @@
 		FF551B4A21354159001EC09F /* zwsg_frame.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zwsg_frame.pch; sourceTree = "<group>"; };
 		FF551B5021362A2E001EC09F /* ZWStringUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWStringUtil.h; sourceTree = "<group>"; };
 		FF551B5121362A2E001EC09F /* ZWStringUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWStringUtil.m; sourceTree = "<group>"; };
+		FF7351692186936A00D0BE05 /* ZWWordWrapUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWordWrapUtil.h; sourceTree = "<group>"; };
+		FF73516A2186936A00D0BE05 /* ZWWordWrapUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWordWrapUtil.m; sourceTree = "<group>"; };
 		FF990A9121815CA80064E598 /* ZWHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWHelpUtil.h; sourceTree = "<group>"; };
 		FF990A9221815CA80064E598 /* ZWHelpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWHelpUtil.m; sourceTree = "<group>"; };
 		FF990A9421815F210064E598 /* ZWLoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLoginUtil.h; sourceTree = "<group>"; };
@@ -276,6 +279,8 @@
 				FF990ACB218302580064E598 /* ZWTimeUtil.m */,
 				FF990ACD21830B140064E598 /* ZWTextViewUtil.h */,
 				FF990ACE21830B140064E598 /* ZWTextViewUtil.m */,
+				FF7351692186936A00D0BE05 /* ZWWordWrapUtil.h */,
+				FF73516A2186936A00D0BE05 /* ZWWordWrapUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -560,6 +565,7 @@
 				FF551AFA213524BF001EC09F /* AppDelegate.m in Sources */,
 				FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */,
 				FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */,
+				FF73516B2186936A00D0BE05 /* ZWWordWrapUtil.m in Sources */,
 				FF990ACC218302580064E598 /* ZWTimeUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
