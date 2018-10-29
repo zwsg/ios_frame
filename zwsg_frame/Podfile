@@ -5,7 +5,7 @@ target ‘zwsg_frame’ do
     pod 'AFNetworking'
     pod 'DZNEmptyDataSet'
     pod 'IQKeyboardManager'
-    pod 'MJRefresh'
     pod 'Masonry'
     pod 'SDWebImage'
+    pod 'KafkaRefresh'
 end

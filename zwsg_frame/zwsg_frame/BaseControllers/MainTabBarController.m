@@ -19,6 +19,7 @@
 
 #import "MainTabBarController.h"
 #import "ViewController.h"
+#import "TestTableViewController.h"
 @interface MainTabBarController ()
 
 @end
@@ -41,7 +42,7 @@
 -(void)initTabbar{
     NSArray* tabs=@[
                     @{@"title":@"功能",@"icon":@"tab_1",@"controller":[[ViewController alloc]init]},
-                    @{@"title":@"消息",@"icon":@"tab_2",@"controller":[[ViewController alloc]init]},
+                    @{@"title":@"消息",@"icon":@"tab_2",@"controller":[[TestTableViewController alloc]init]},
                     @{@"title":@"播报",@"icon":@"tab_3",@"controller":[[ViewController alloc]init]},
                     @{@"title":@"我的",@"icon":@"tab_4",@"controller":[[ViewController alloc]init]}
                     ];

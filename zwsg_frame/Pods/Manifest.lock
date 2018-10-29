@@ -16,6 +16,41 @@ PODS:
     - AFNetworking/NSURLSession
   - DZNEmptyDataSet (1.8.1)
   - IQKeyboardManager (6.0.3)
+  - KafkaRefresh (1.2.3):
+    - KafkaRefresh/Category (= 1.2.3)
+    - KafkaRefresh/Configuration (= 1.2.3)
+    - KafkaRefresh/Core (= 1.2.3)
+    - KafkaRefresh/Default (= 1.2.3)
+    - KafkaRefresh/Style (= 1.2.3)
+    - KafkaRefresh/UIKit (= 1.2.3)
+  - KafkaRefresh/Category (1.2.3)
+  - KafkaRefresh/Configuration (1.2.3):
+    - KafkaRefresh/UIKit/FootKit
+    - KafkaRefresh/UIKit/HeadKit
+  - KafkaRefresh/Core (1.2.3):
+    - KafkaRefresh/Category
+  - KafkaRefresh/Default (1.2.3):
+    - KafkaRefresh/Style
+  - KafkaRefresh/Style (1.2.3)
+  - KafkaRefresh/UIKit (1.2.3):
+    - KafkaRefresh/UIKit/FootKit (= 1.2.3)
+    - KafkaRefresh/UIKit/HeadKit (= 1.2.3)
+    - KafkaRefresh/UIKit/LayerKit (= 1.2.3)
+  - KafkaRefresh/UIKit/FootKit (1.2.3):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/HeadKit (1.2.3):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/LayerKit (1.2.3):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Default
   - Masonry (1.1.0)
   - MJRefresh (3.1.15.3)
   - SDWebImage (4.4.2):
@@ -26,6 +61,7 @@ DEPENDENCIES:
   - AFNetworking
   - DZNEmptyDataSet
   - IQKeyboardManager
+  - KafkaRefresh
   - Masonry
   - MJRefresh
   - SDWebImage
@@ -35,6 +71,7 @@ SPEC REPOS:
     - AFNetworking
     - DZNEmptyDataSet
     - IQKeyboardManager
+    - KafkaRefresh
     - Masonry
     - MJRefresh
     - SDWebImage
@@ -43,10 +80,11 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
+  KafkaRefresh: c9794c5a696eaf00371c18ba385c8c3d114b5bff
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
-PODFILE CHECKSUM: fedca84b0b3aeb77774ed6d91ca2fd85cf975bd2
+PODFILE CHECKSUM: 85e709573ade70c10fb271e747b84a0b140a38ca
 
 COCOAPODS: 1.5.3

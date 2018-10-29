@@ -45,6 +45,8 @@
 		FF7351C02186A9EB00D0BE05 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7351BE2186A6E700D0BE05 /* MobileCoreServices.framework */; };
 		FF7351C32186AFAE00D0BE05 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351C22186AFAE00D0BE05 /* MainTabBarController.m */; };
 		FF7351C62186B02B00D0BE05 /* MainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351C52186B02B00D0BE05 /* MainNavController.m */; };
+		FF7351C92186D35500D0BE05 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351C82186D35500D0BE05 /* BaseTableViewController.m */; };
+		FF7351CC2186D62B00D0BE05 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351CB2186D62B00D0BE05 /* TestTableViewController.m */; };
 		FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9221815CA80064E598 /* ZWHelpUtil.m */; };
 		FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9521815F210064E598 /* ZWLoginUtil.m */; };
 		FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A972181627E0064E598 /* ZWHttpUtil.m */; };
@@ -167,6 +169,10 @@
 		FF7351C22186AFAE00D0BE05 /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		FF7351C42186B02B00D0BE05 /* MainNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainNavController.h; path = zwsg_frame/MainNavController.h; sourceTree = SOURCE_ROOT; };
 		FF7351C52186B02B00D0BE05 /* MainNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainNavController.m; path = zwsg_frame/MainNavController.m; sourceTree = SOURCE_ROOT; };
+		FF7351C72186D35500D0BE05 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		FF7351C82186D35500D0BE05 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		FF7351CA2186D62B00D0BE05 /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		FF7351CB2186D62B00D0BE05 /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
 		FF990A9121815CA80064E598 /* ZWHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWHelpUtil.h; sourceTree = "<group>"; };
 		FF990A9221815CA80064E598 /* ZWHelpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWHelpUtil.m; sourceTree = "<group>"; };
 		FF990A9421815F210064E598 /* ZWLoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLoginUtil.h; sourceTree = "<group>"; };
@@ -329,6 +335,8 @@
 			children = (
 				FF551B4721353F31001EC09F /* BaseViewController.h */,
 				FF551B4821353F31001EC09F /* BaseViewController.m */,
+				FF7351C72186D35500D0BE05 /* BaseTableViewController.h */,
+				FF7351C82186D35500D0BE05 /* BaseTableViewController.m */,
 				FF7351C12186AFAE00D0BE05 /* MainTabBarController.h */,
 				FF7351C22186AFAE00D0BE05 /* MainTabBarController.m */,
 				FF7351C42186B02B00D0BE05 /* MainNavController.h */,
@@ -391,6 +399,8 @@
 			children = (
 				FF551AFB213524BF001EC09F /* ViewController.h */,
 				FF551AFC213524BF001EC09F /* ViewController.m */,
+				FF7351CA2186D62B00D0BE05 /* TestTableViewController.h */,
+				FF7351CB2186D62B00D0BE05 /* TestTableViewController.m */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -731,6 +741,7 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/KafkaRefresh/KafkaRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -740,6 +751,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KafkaRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -762,6 +774,7 @@
 				FF551B03213524BF001EC09F /* zwsg_frame.xcdatamodeld in Sources */,
 				FF7351AB2186A0FE00D0BE05 /* GQImageGobalPaths.m in Sources */,
 				FF551B4921353F31001EC09F /* BaseViewController.m in Sources */,
+				FF7351C92186D35500D0BE05 /* BaseTableViewController.m in Sources */,
 				FF7351C62186B02B00D0BE05 /* MainNavController.m in Sources */,
 				FF990A9F218166E70064E598 /* ZWJsonUtil.m in Sources */,
 				FF7351A92186A0FE00D0BE05 /* UIImage+GQImageDownloader.m in Sources */,
@@ -797,6 +810,7 @@
 				FF7351AC2186A0FE00D0BE05 /* GQImageDownloaderBaseOperation.m in Sources */,
 				FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */,
 				FF73516B2186936A00D0BE05 /* ZWWordWrapUtil.m in Sources */,
+				FF7351CC2186D62B00D0BE05 /* TestTableViewController.m in Sources */,
 				FF7351B52186A0FE00D0BE05 /* GQBaseImageVideoModel.m in Sources */,
 				FF990ACC218302580064E598 /* ZWTimeUtil.m in Sources */,
 			);
