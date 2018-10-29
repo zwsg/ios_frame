@@ -21,7 +21,7 @@
 -(void)showSuccessAlert:(NSString *)msg{
     JohnTopAlert *alert = [[JohnTopAlert alloc]init];
     [alert showAlertMessage:msg alertType:SuccessAlert];
-    alert.alertBgColor = [UIColor colorWithHexString:COLR_MAIN];
+    alert.alertBgColor = [UIColor colorWithHexString:@"#24DB71"];
     [alert alertShow];
 }
 

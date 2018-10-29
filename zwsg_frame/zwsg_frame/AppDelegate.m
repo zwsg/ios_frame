@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "MainTabBarController.h"
+#import "MainNavController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,12 +20,16 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    if (@available(iOS 11, *)) {
+        [UIScrollView appearance].contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    }
     //界面存在UITextView时初次加载页面会卡顿，解决方法在此声明一个UITextView
     UITextView *tv = [[UITextView alloc]init];
     tv.text = @"";
     
-    ViewController *vc = [[ViewController alloc]init];
-    self.window.rootViewController = vc;
+    MainTabBarController *tabBar = [[MainTabBarController alloc]init];
+    MainNavController *nav = [[MainNavController alloc]initWithRootViewController:tabBar];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

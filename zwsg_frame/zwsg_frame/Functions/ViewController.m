@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tabBarController.navigationItem.title = @"ios框架";
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(50, 150, 50, 50)];
     [btn setTitle:@"success" forState:(UIControlStateNormal)];
     [btn setTitleColor:[UIColor redColor] forState:(UIControlStateNormal)];

@@ -24,7 +24,7 @@
     if (self = [super init]) {
         self.frame = CGRectMake(0, -TopHeight,[UIScreen mainScreen].bounds.size.width, TopHeight);
         self.alertShowTime = 3;
-        [UIView transitionWithView:self duration:0.3 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [UIView transitionWithView:self duration:0.2 options:UIViewAnimationOptionCurveEaseIn animations:^{
             self.center = CGPointMake([UIScreen mainScreen].bounds.size.width / 2,TopHeight/2);
         } completion:^(BOOL finished) {
             [self performSelector:@selector(removeAlert) withObject:nil afterDelay:self.alertShowTime];
@@ -79,7 +79,7 @@
 
 #pragma mark - 移除提示框
 - (void)removeAlert{
-    [UIView transitionWithView:self duration:0.3 options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView transitionWithView:self duration:0.2 options:UIViewAnimationOptionCurveEaseOut animations:^{
         self.center = CGPointMake([UIScreen mainScreen].bounds.size.width / 2,-TopHeight/2);
     } completion:^(BOOL finished) {
         [self removeFromSuperview];

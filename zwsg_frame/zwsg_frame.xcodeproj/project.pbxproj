@@ -43,6 +43,8 @@
 		FF7351BA2186A0FE00D0BE05 /* GQImageVideoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351A42186A0FE00D0BE05 /* GQImageVideoTableView.m */; };
 		FF7351BB2186A0FE00D0BE05 /* GQImageVideoViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351A62186A0FE00D0BE05 /* GQImageVideoViewer.m */; };
 		FF7351C02186A9EB00D0BE05 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7351BE2186A6E700D0BE05 /* MobileCoreServices.framework */; };
+		FF7351C32186AFAE00D0BE05 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351C22186AFAE00D0BE05 /* MainTabBarController.m */; };
+		FF7351C62186B02B00D0BE05 /* MainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351C52186B02B00D0BE05 /* MainNavController.m */; };
 		FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9221815CA80064E598 /* ZWHelpUtil.m */; };
 		FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9521815F210064E598 /* ZWLoginUtil.m */; };
 		FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A972181627E0064E598 /* ZWHttpUtil.m */; };
@@ -161,6 +163,10 @@
 		FF7351A72186A0FE00D0BE05 /* GQImageVideoViewerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQImageVideoViewerConst.h; sourceTree = "<group>"; };
 		FF7351BC2186A5CF00D0BE05 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FF7351BE2186A6E700D0BE05 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FF7351C12186AFAE00D0BE05 /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		FF7351C22186AFAE00D0BE05 /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		FF7351C42186B02B00D0BE05 /* MainNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainNavController.h; path = zwsg_frame/MainNavController.h; sourceTree = SOURCE_ROOT; };
+		FF7351C52186B02B00D0BE05 /* MainNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainNavController.m; path = zwsg_frame/MainNavController.m; sourceTree = SOURCE_ROOT; };
 		FF990A9121815CA80064E598 /* ZWHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWHelpUtil.h; sourceTree = "<group>"; };
 		FF990A9221815CA80064E598 /* ZWHelpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWHelpUtil.m; sourceTree = "<group>"; };
 		FF990A9421815F210064E598 /* ZWLoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLoginUtil.h; sourceTree = "<group>"; };
@@ -323,6 +329,10 @@
 			children = (
 				FF551B4721353F31001EC09F /* BaseViewController.h */,
 				FF551B4821353F31001EC09F /* BaseViewController.m */,
+				FF7351C12186AFAE00D0BE05 /* MainTabBarController.h */,
+				FF7351C22186AFAE00D0BE05 /* MainTabBarController.m */,
+				FF7351C42186B02B00D0BE05 /* MainNavController.h */,
+				FF7351C52186B02B00D0BE05 /* MainNavController.m */,
 			);
 			path = BaseControllers;
 			sourceTree = "<group>";
@@ -752,8 +762,10 @@
 				FF551B03213524BF001EC09F /* zwsg_frame.xcdatamodeld in Sources */,
 				FF7351AB2186A0FE00D0BE05 /* GQImageGobalPaths.m in Sources */,
 				FF551B4921353F31001EC09F /* BaseViewController.m in Sources */,
+				FF7351C62186B02B00D0BE05 /* MainNavController.m in Sources */,
 				FF990A9F218166E70064E598 /* ZWJsonUtil.m in Sources */,
 				FF7351A92186A0FE00D0BE05 /* UIImage+GQImageDownloader.m in Sources */,
+				FF7351C32186AFAE00D0BE05 /* MainTabBarController.m in Sources */,
 				FF7351B22186A0FE00D0BE05 /* GQImageDownloaderBaseURLRequest.m in Sources */,
 				FF990AC92182F7B20064E598 /* UIColor+ZWColor.m in Sources */,
 				FF73516E2186987400D0BE05 /* ZWUploadFileUtil.m in Sources */,
