@@ -47,6 +47,10 @@
 		FF7351C62186B02B00D0BE05 /* MainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351C52186B02B00D0BE05 /* MainNavController.m */; };
 		FF7351C92186D35500D0BE05 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351C82186D35500D0BE05 /* BaseTableViewController.m */; };
 		FF7351CC2186D62B00D0BE05 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351CB2186D62B00D0BE05 /* TestTableViewController.m */; };
+		FF7351CF2187DDA400D0BE05 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351CE2187DDA400D0BE05 /* BaseTableViewCell.m */; };
+		FF7351D22187DF0600D0BE05 /* UIView+ZWView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351D12187DF0600D0BE05 /* UIView+ZWView.m */; };
+		FF7351D52187E02A00D0BE05 /* BaseFormTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351D42187E02A00D0BE05 /* BaseFormTableViewCell.m */; };
+		FF7351D82187F85F00D0BE05 /* BaseFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351D72187F85F00D0BE05 /* BaseFormViewController.m */; };
 		FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9221815CA80064E598 /* ZWHelpUtil.m */; };
 		FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9521815F210064E598 /* ZWLoginUtil.m */; };
 		FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A972181627E0064E598 /* ZWHttpUtil.m */; };
@@ -173,6 +177,14 @@
 		FF7351C82186D35500D0BE05 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		FF7351CA2186D62B00D0BE05 /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
 		FF7351CB2186D62B00D0BE05 /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		FF7351CD2187DDA400D0BE05 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		FF7351CE2187DDA400D0BE05 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		FF7351D02187DF0600D0BE05 /* UIView+ZWView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZWView.h"; sourceTree = "<group>"; };
+		FF7351D12187DF0600D0BE05 /* UIView+ZWView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZWView.m"; sourceTree = "<group>"; };
+		FF7351D32187E02A00D0BE05 /* BaseFormTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseFormTableViewCell.h; sourceTree = "<group>"; };
+		FF7351D42187E02A00D0BE05 /* BaseFormTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseFormTableViewCell.m; sourceTree = "<group>"; };
+		FF7351D62187F85F00D0BE05 /* BaseFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseFormViewController.h; sourceTree = "<group>"; };
+		FF7351D72187F85F00D0BE05 /* BaseFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseFormViewController.m; sourceTree = "<group>"; };
 		FF990A9121815CA80064E598 /* ZWHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWHelpUtil.h; sourceTree = "<group>"; };
 		FF990A9221815CA80064E598 /* ZWHelpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWHelpUtil.m; sourceTree = "<group>"; };
 		FF990A9421815F210064E598 /* ZWLoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLoginUtil.h; sourceTree = "<group>"; };
@@ -337,6 +349,12 @@
 				FF551B4821353F31001EC09F /* BaseViewController.m */,
 				FF7351C72186D35500D0BE05 /* BaseTableViewController.h */,
 				FF7351C82186D35500D0BE05 /* BaseTableViewController.m */,
+				FF7351CD2187DDA400D0BE05 /* BaseTableViewCell.h */,
+				FF7351CE2187DDA400D0BE05 /* BaseTableViewCell.m */,
+				FF7351D32187E02A00D0BE05 /* BaseFormTableViewCell.h */,
+				FF7351D42187E02A00D0BE05 /* BaseFormTableViewCell.m */,
+				FF7351D62187F85F00D0BE05 /* BaseFormViewController.h */,
+				FF7351D72187F85F00D0BE05 /* BaseFormViewController.m */,
 				FF7351C12186AFAE00D0BE05 /* MainTabBarController.h */,
 				FF7351C22186AFAE00D0BE05 /* MainTabBarController.m */,
 				FF7351C42186B02B00D0BE05 /* MainNavController.h */,
@@ -352,6 +370,8 @@
 				FF990A9B218163C90064E598 /* NSDictionary+ZWDictionary.m */,
 				FF990AC72182F7B20064E598 /* UIColor+ZWColor.h */,
 				FF990AC82182F7B20064E598 /* UIColor+ZWColor.m */,
+				FF7351D02187DF0600D0BE05 /* UIView+ZWView.h */,
+				FF7351D12187DF0600D0BE05 /* UIView+ZWView.m */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -774,6 +794,7 @@
 				FF551B03213524BF001EC09F /* zwsg_frame.xcdatamodeld in Sources */,
 				FF7351AB2186A0FE00D0BE05 /* GQImageGobalPaths.m in Sources */,
 				FF551B4921353F31001EC09F /* BaseViewController.m in Sources */,
+				FF7351CF2187DDA400D0BE05 /* BaseTableViewCell.m in Sources */,
 				FF7351C92186D35500D0BE05 /* BaseTableViewController.m in Sources */,
 				FF7351C62186B02B00D0BE05 /* MainNavController.m in Sources */,
 				FF990A9F218166E70064E598 /* ZWJsonUtil.m in Sources */,
@@ -783,10 +804,12 @@
 				FF990AC92182F7B20064E598 /* UIColor+ZWColor.m in Sources */,
 				FF73516E2186987400D0BE05 /* ZWUploadFileUtil.m in Sources */,
 				FF990AAB2182A1150064E598 /* JohnAlertManager.m in Sources */,
+				FF7351D82187F85F00D0BE05 /* BaseFormViewController.m in Sources */,
 				FF990ACF21830B140064E598 /* ZWTextViewUtil.m in Sources */,
 				FF551AFD213524BF001EC09F /* ViewController.m in Sources */,
 				FF7351AE2186A0FE00D0BE05 /* GQImageDownloaderSessionManager.m in Sources */,
 				FF551B0B213524BF001EC09F /* main.m in Sources */,
+				FF7351D52187E02A00D0BE05 /* BaseFormTableViewCell.m in Sources */,
 				FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */,
 				FF990AC62182F4ED0064E598 /* XLTieBarLoading.m in Sources */,
 				FF7351B62186A0FE00D0BE05 /* GQBaseImageView.m in Sources */,
@@ -811,6 +834,7 @@
 				FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */,
 				FF73516B2186936A00D0BE05 /* ZWWordWrapUtil.m in Sources */,
 				FF7351CC2186D62B00D0BE05 /* TestTableViewController.m in Sources */,
+				FF7351D22187DF0600D0BE05 /* UIView+ZWView.m in Sources */,
 				FF7351B52186A0FE00D0BE05 /* GQBaseImageVideoModel.m in Sources */,
 				FF990ACC218302580064E598 /* ZWTimeUtil.m in Sources */,
 			);

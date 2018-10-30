@@ -1,8 +1,8 @@
 //___HEADERFILE___
 /*
  * zwsg_frame 
- * zwsg_frame.pch 
- * Created by xhb on 2018/8/28. 
+ * UIView+ZWView.h 
+ * Created by xhb on 2018/10/30. 
  * QQ：692061841   	WeChat：zwsg_wechat
  * Copyright © 2018年 ZWSG. All rights reserved.
 
@@ -17,21 +17,28 @@
  *           ░     ░ ░      ░  ░
  */
 
-#ifndef zwsg_frame_pch
-#define zwsg_frame_pch
+#import <UIKit/UIKit.h>
 
-#import "AppConfig.h"
-#import "HttpConfig.h"
-#import "AppDelegate.h"
-//**********Utils*********
-#import "ZWJsonUtil.h"
-#import "ZWTipsUtil.h"
-#import "ZWStringUtil.h"
-#import "ZWHelpUtil.h"
-#import "ZWTimeUtil.h"
-//**********Category******
-#import "UIColor+ZWColor.h"
-#import "NSDictionary+ZWDictionary.h"
-#import "UIImageView+WebCache.h"
-#import "UIView+ZWView.h"
-#endif /* zwsg_frame_pch */
+@interface UIView (ZWView)
+@property (nonatomic, assign) CGSize size;
+
+@property (nonatomic,assign)  CGFloat x;
+
+@property  (nonatomic,assign) CGFloat y;
+
+@property (nonatomic, assign) CGFloat top;
+
+@property (nonatomic, assign) CGFloat bottom;
+
+@property (nonatomic, assign) CGFloat left;
+
+@property (nonatomic, assign) CGFloat right;
+
+@property (nonatomic, assign) CGFloat centerX;
+
+@property (nonatomic, assign) CGFloat centerY;
+
+@property (nonatomic, assign) CGFloat width;
+
+@property (nonatomic, assign) CGFloat height;
+@end
