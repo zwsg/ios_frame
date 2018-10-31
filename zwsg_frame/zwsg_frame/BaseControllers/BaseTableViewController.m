@@ -27,6 +27,13 @@
 @implementation BaseTableViewController
 
 @synthesize tableView;
+-(instancetype)init{
+    if ([super init]) {
+        _enableRefresh = YES;
+        _enableLoadMore = YES;
+    }
+    return self;
+}
 
 -(void)setEnableRefresh:(BOOL)enableRefresh{
     _enableRefresh=enableRefresh;
@@ -66,12 +73,16 @@
     self.tableView.tableFooterView = [UIView new];
     
     //https://github.com/OpenFeyn/KafkaRefresh
-    [self.tableView bindHeadRefreshHandler:^{
-        [self refreshData];
-    } themeColor:[UIColor colorWithHexString:COLR_MAIN] refreshStyle:KafkaRefreshStyleReplicatorWoody];
-    [self.tableView bindFootRefreshHandler:^{
-        [self loadMoreData];
-    } themeColor:[UIColor colorWithHexString:COLR_MAIN] refreshStyle:KafkaRefreshStyleReplicatorWoody];
+    if (_enableRefresh) {
+        [self.tableView bindHeadRefreshHandler:^{
+            [self refreshData];
+        } themeColor:[UIColor colorWithHexString:COLR_MAIN] refreshStyle:KafkaRefreshStyleReplicatorWoody];
+    }
+    if (_enableLoadMore) {
+        [self.tableView bindFootRefreshHandler:^{
+            [self loadMoreData];
+        } themeColor:[UIColor colorWithHexString:COLR_MAIN] refreshStyle:KafkaRefreshStyleReplicatorWoody];
+    }
 }
 
 //开始刷新

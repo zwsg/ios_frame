@@ -26,7 +26,7 @@
 @property (strong, nonatomic) NSString* cellValue;//传给后台的值
 @property (strong, nonatomic) NSString* keyboardType;//文本类型 IDNum=身份证 Phone=手机 Tel=固话
 @property (strong, nonatomic) UIView *valueView;//显示value的view
-//@property (strong, nonatomic) UILabel *lblName;//标题
+@property (strong, nonatomic) UILabel *lblName;//标题
 @property (copy, nonatomic)   NSString *placeHolder;//默认提示
 @property (copy, nonatomic) NSString *key;//键
 @property (copy, nonatomic) NSString *title;//标题

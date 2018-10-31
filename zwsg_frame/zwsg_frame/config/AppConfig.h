@@ -61,13 +61,13 @@
 //背景颜色
 #define COLR_BACKGROUND @""
 //主标题颜色
-#define COLR_MAIN_TITLE @""
+#define COLR_MAIN_TITLE @"#333333"
 //副标题颜色
-#define COLR_SUB_TITLE @""
+#define COLR_SUB_TITLE @"#666666"
 //分割线颜色
-#define COLR_LINE @""
+#define COLR_LINE @"#EFEFEE"
 //placeholder颜色
-#define COLR_PLACEHOLDER @""
+#define COLR_PLACEHOLDER @"#CACBCF"
 //超小字体
 #define FONT_SIZE_SMALL_SMAIL 10
 //小字体
@@ -79,10 +79,10 @@
 //表单行高
 #define FORM_ITEM_HEIGHT 50
 //表单元素左边距离
-#define FORM_PADDING_LEFT 15
+#define FORM_PADDING_LEFT 10
 //表单标题宽度
-#define FORM_TITLE_WIDTH 85
+#define FORM_TITLE_WIDTH 75
 //表单实际控件距离标题控件距离
-#define FORM_MARGIN_TO_TITLE 10
+#define FORM_SPACE_CENTER 10
 
 #endif /* AppConfig_h */

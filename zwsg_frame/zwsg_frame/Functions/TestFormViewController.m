@@ -1,8 +1,8 @@
 //___HEADERFILE___
 /*
  * zwsg_frame 
- * zwsg_frame.pch 
- * Created by xhb on 2018/8/28. 
+ * TestFormViewController.m 
+ * Created by xhb on 2018/10/31. 
  * QQ：692061841   	WeChat：zwsg_wechat
  * Copyright © 2018年 ZWSG. All rights reserved.
 
@@ -17,22 +17,37 @@
  *           ░     ░ ░      ░  ░
  */
 
-#ifndef zwsg_frame_pch
-#define zwsg_frame_pch
+#import "TestFormViewController.h"
+#import "TextFieldCell.h"
+@interface TestFormViewController ()
 
-#import "AppConfig.h"
-#import "HttpConfig.h"
-#import "AppDelegate.h"
-//**********Utils*********
-#import "ZWJsonUtil.h"
-#import "ZWTipsUtil.h"
-#import "ZWStringUtil.h"
-#import "ZWHelpUtil.h"
-#import "ZWTimeUtil.h"
-#import "ZWWordWrapUtil.h"
-//**********Category******
-#import "UIColor+ZWColor.h"
-#import "NSDictionary+ZWDictionary.h"
-#import "UIImageView+WebCache.h"
-#import "UIView+ZWView.h"
-#endif /* zwsg_frame_pch */
+@end
+
+@implementation TestFormViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self setForm];
+}
+-(void)setForm{
+    NSMutableArray *sec1Arr = [NSMutableArray array];
+    [sec1Arr addObject:[[TextFieldCell alloc] initTitle:@"测试" value:@"这是测试数据" key:@"" isRequire:YES placeHolder:@"测试placeHolder" length:11 keyboardType:@"Phone"]];
+    [self.cells addObject:sec1Arr];
+    [self.tableView reloadData];
+}
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

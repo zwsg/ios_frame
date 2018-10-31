@@ -51,6 +51,11 @@
 		FF7351D22187DF0600D0BE05 /* UIView+ZWView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351D12187DF0600D0BE05 /* UIView+ZWView.m */; };
 		FF7351D52187E02A00D0BE05 /* BaseFormTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351D42187E02A00D0BE05 /* BaseFormTableViewCell.m */; };
 		FF7351D82187F85F00D0BE05 /* BaseFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351D72187F85F00D0BE05 /* BaseFormViewController.m */; };
+		FF7351DE21892F4900D0BE05 /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351DD21892F4900D0BE05 /* TextFieldCell.m */; };
+		FF7351E12189305900D0BE05 /* TestFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351E02189305900D0BE05 /* TestFormViewController.m */; };
+		FF7351E82189372C00D0BE05 /* WTCarKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351E42189372C00D0BE05 /* WTCarKeyboard.m */; };
+		FF7351E92189372C00D0BE05 /* WTCarKeyboardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7351E52189372C00D0BE05 /* WTCarKeyboardBack.png */; };
+		FF7351EA2189372C00D0BE05 /* WTCarKeyboardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351E72189372C00D0BE05 /* WTCarKeyboardModel.m */; };
 		FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9221815CA80064E598 /* ZWHelpUtil.m */; };
 		FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9521815F210064E598 /* ZWLoginUtil.m */; };
 		FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A972181627E0064E598 /* ZWHttpUtil.m */; };
@@ -185,6 +190,15 @@
 		FF7351D42187E02A00D0BE05 /* BaseFormTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseFormTableViewCell.m; sourceTree = "<group>"; };
 		FF7351D62187F85F00D0BE05 /* BaseFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseFormViewController.h; sourceTree = "<group>"; };
 		FF7351D72187F85F00D0BE05 /* BaseFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseFormViewController.m; sourceTree = "<group>"; };
+		FF7351DC21892F4900D0BE05 /* TextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
+		FF7351DD21892F4900D0BE05 /* TextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		FF7351DF2189305900D0BE05 /* TestFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFormViewController.h; sourceTree = "<group>"; };
+		FF7351E02189305900D0BE05 /* TestFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFormViewController.m; sourceTree = "<group>"; };
+		FF7351E32189372C00D0BE05 /* WTCarKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTCarKeyboard.h; sourceTree = "<group>"; };
+		FF7351E42189372C00D0BE05 /* WTCarKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTCarKeyboard.m; sourceTree = "<group>"; };
+		FF7351E52189372C00D0BE05 /* WTCarKeyboardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WTCarKeyboardBack.png; sourceTree = "<group>"; };
+		FF7351E62189372C00D0BE05 /* WTCarKeyboardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTCarKeyboardModel.h; sourceTree = "<group>"; };
+		FF7351E72189372C00D0BE05 /* WTCarKeyboardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTCarKeyboardModel.m; sourceTree = "<group>"; };
 		FF990A9121815CA80064E598 /* ZWHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWHelpUtil.h; sourceTree = "<group>"; };
 		FF990A9221815CA80064E598 /* ZWHelpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWHelpUtil.m; sourceTree = "<group>"; };
 		FF990A9421815F210064E598 /* ZWLoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLoginUtil.h; sourceTree = "<group>"; };
@@ -410,6 +424,8 @@
 		FF551B3B213526FE001EC09F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				FF7351DC21892F4900D0BE05 /* TextFieldCell.h */,
+				FF7351DD21892F4900D0BE05 /* TextFieldCell.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -421,6 +437,8 @@
 				FF551AFC213524BF001EC09F /* ViewController.m */,
 				FF7351CA2186D62B00D0BE05 /* TestTableViewController.h */,
 				FF7351CB2186D62B00D0BE05 /* TestTableViewController.m */,
+				FF7351DF2189305900D0BE05 /* TestFormViewController.h */,
+				FF7351E02189305900D0BE05 /* TestFormViewController.m */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -549,9 +567,23 @@
 			path = GQBaseObject;
 			sourceTree = "<group>";
 		};
+		FF7351E22189372C00D0BE05 /* WTCarKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FF7351E32189372C00D0BE05 /* WTCarKeyboard.h */,
+				FF7351E42189372C00D0BE05 /* WTCarKeyboard.m */,
+				FF7351E52189372C00D0BE05 /* WTCarKeyboardBack.png */,
+				FF7351E62189372C00D0BE05 /* WTCarKeyboardModel.h */,
+				FF7351E72189372C00D0BE05 /* WTCarKeyboardModel.m */,
+			);
+			name = WTCarKeyboard;
+			path = "../../../../../图/WTCarKeyboard";
+			sourceTree = "<group>";
+		};
 		FF990AA32182A0A60064E598 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				FF7351E22189372C00D0BE05 /* WTCarKeyboard */,
 				FF7351752186A0FE00D0BE05 /* GQPicVideo */,
 				FF990ABE2182F4ED0064E598 /* XLTieBarLoading */,
 				FF990AA42182A1150064E598 /* JohnAlert */,
@@ -709,6 +741,7 @@
 				FF990AB62182E68E0064E598 /* bannerTipSuccess@2x.png in Resources */,
 				FF990AB42182E68E0064E598 /* bannerTipWarm@2x.png in Resources */,
 				FF990AB52182E68E0064E598 /* bannerTipFaild@3x.png in Resources */,
+				FF7351E92189372C00D0BE05 /* WTCarKeyboardBack.png in Resources */,
 				FF990AB72182E68E0064E598 /* bannerTipWarm@3x.png in Resources */,
 				FF990AB92182E68E0064E598 /* bannerTipFaild@2x.png in Resources */,
 				FF551B41213532F9001EC09F /* LaunchScreen.storyboard in Resources */,
@@ -801,6 +834,7 @@
 				FF7351A92186A0FE00D0BE05 /* UIImage+GQImageDownloader.m in Sources */,
 				FF7351C32186AFAE00D0BE05 /* MainTabBarController.m in Sources */,
 				FF7351B22186A0FE00D0BE05 /* GQImageDownloaderBaseURLRequest.m in Sources */,
+				FF7351E12189305900D0BE05 /* TestFormViewController.m in Sources */,
 				FF990AC92182F7B20064E598 /* UIColor+ZWColor.m in Sources */,
 				FF73516E2186987400D0BE05 /* ZWUploadFileUtil.m in Sources */,
 				FF990AAB2182A1150064E598 /* JohnAlertManager.m in Sources */,
@@ -809,6 +843,7 @@
 				FF551AFD213524BF001EC09F /* ViewController.m in Sources */,
 				FF7351AE2186A0FE00D0BE05 /* GQImageDownloaderSessionManager.m in Sources */,
 				FF551B0B213524BF001EC09F /* main.m in Sources */,
+				FF7351EA2189372C00D0BE05 /* WTCarKeyboardModel.m in Sources */,
 				FF7351D52187E02A00D0BE05 /* BaseFormTableViewCell.m in Sources */,
 				FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */,
 				FF990AC62182F4ED0064E598 /* XLTieBarLoading.m in Sources */,
@@ -819,6 +854,7 @@
 				FF73517121869CF900D0BE05 /* ZWFileOptionUtil.m in Sources */,
 				FF990AAC2182A1150064E598 /* JohnTopAlert.m in Sources */,
 				FF990A9C218163C90064E598 /* NSDictionary+ZWDictionary.m in Sources */,
+				FF7351E82189372C00D0BE05 /* WTCarKeyboard.m in Sources */,
 				FF7351B72186A0FE00D0BE05 /* GQBaseTableView.m in Sources */,
 				FF7351B92186A0FE00D0BE05 /* GQImageVideoScrollView.m in Sources */,
 				FF7351AF2186A0FE00D0BE05 /* GQImageDownloaderSessionOperation.m in Sources */,
@@ -833,6 +869,7 @@
 				FF7351AC2186A0FE00D0BE05 /* GQImageDownloaderBaseOperation.m in Sources */,
 				FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */,
 				FF73516B2186936A00D0BE05 /* ZWWordWrapUtil.m in Sources */,
+				FF7351DE21892F4900D0BE05 /* TextFieldCell.m in Sources */,
 				FF7351CC2186D62B00D0BE05 /* TestTableViewController.m in Sources */,
 				FF7351D22187DF0600D0BE05 /* UIView+ZWView.m in Sources */,
 				FF7351B52186A0FE00D0BE05 /* GQBaseImageVideoModel.m in Sources */,
