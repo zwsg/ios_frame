@@ -70,7 +70,12 @@
     }
     return self;
 }
-
+-(instancetype)initTitle:(NSString *)title key:(NSString *)key length:(NSInteger)length{
+    if (self = [super initTitle:title key:key length:length]) {
+        [self setUI];
+    }
+    return self;
+}
 -(instancetype)initTitle:(NSString *)title value:(NSString *)value key:(NSString *)key isRequire:(BOOL)isRequire placeHolder:(NSString *)placeHolder length:(NSInteger)length keyboardType:(NSString *)keyboardType{
     if (self = [super initTitle:title value:value key:key isRequire:isRequire placeHolder:placeHolder length:length keyboardType:keyboardType]) {
         [self setUI];

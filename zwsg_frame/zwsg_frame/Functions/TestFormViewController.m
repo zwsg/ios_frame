@@ -19,6 +19,7 @@
 
 #import "TestFormViewController.h"
 #import "TextFieldCell.h"
+#import "TextViewCell.h"
 @interface TestFormViewController ()
 
 @end
@@ -31,7 +32,8 @@
 }
 -(void)setForm{
     NSMutableArray *sec1Arr = [NSMutableArray array];
-    [sec1Arr addObject:[[TextFieldCell alloc] initTitle:@"测试" value:@"这是测试数据" key:@"" isRequire:YES placeHolder:@"测试placeHolder" length:11 keyboardType:@"Phone"]];
+    [sec1Arr addObject:[[TextFieldCell alloc] initTitle:@"测试textField" value:@"这是测试数据" key:@"" isRequire:YES placeHolder:@"测试placeHolder" length:11 keyboardType:@"Phone"]];
+    [sec1Arr addObject:[[TextViewCell alloc] initTitle:@"测试textView" key:@""]];
     [self.cells addObject:sec1Arr];
     [self.tableView reloadData];
 }

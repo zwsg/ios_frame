@@ -56,6 +56,7 @@
 		FF7351E82189372C00D0BE05 /* WTCarKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351E42189372C00D0BE05 /* WTCarKeyboard.m */; };
 		FF7351E92189372C00D0BE05 /* WTCarKeyboardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7351E52189372C00D0BE05 /* WTCarKeyboardBack.png */; };
 		FF7351EA2189372C00D0BE05 /* WTCarKeyboardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351E72189372C00D0BE05 /* WTCarKeyboardModel.m */; };
+		FF7351ED21893DEF00D0BE05 /* TextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351EC21893DEF00D0BE05 /* TextViewCell.m */; };
 		FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9221815CA80064E598 /* ZWHelpUtil.m */; };
 		FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9521815F210064E598 /* ZWLoginUtil.m */; };
 		FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A972181627E0064E598 /* ZWHttpUtil.m */; };
@@ -199,6 +200,8 @@
 		FF7351E52189372C00D0BE05 /* WTCarKeyboardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WTCarKeyboardBack.png; sourceTree = "<group>"; };
 		FF7351E62189372C00D0BE05 /* WTCarKeyboardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTCarKeyboardModel.h; sourceTree = "<group>"; };
 		FF7351E72189372C00D0BE05 /* WTCarKeyboardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTCarKeyboardModel.m; sourceTree = "<group>"; };
+		FF7351EB21893DEF00D0BE05 /* TextViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewCell.h; sourceTree = "<group>"; };
+		FF7351EC21893DEF00D0BE05 /* TextViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewCell.m; sourceTree = "<group>"; };
 		FF990A9121815CA80064E598 /* ZWHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWHelpUtil.h; sourceTree = "<group>"; };
 		FF990A9221815CA80064E598 /* ZWHelpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWHelpUtil.m; sourceTree = "<group>"; };
 		FF990A9421815F210064E598 /* ZWLoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLoginUtil.h; sourceTree = "<group>"; };
@@ -426,6 +429,8 @@
 			children = (
 				FF7351DC21892F4900D0BE05 /* TextFieldCell.h */,
 				FF7351DD21892F4900D0BE05 /* TextFieldCell.m */,
+				FF7351EB21893DEF00D0BE05 /* TextViewCell.h */,
+				FF7351EC21893DEF00D0BE05 /* TextViewCell.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -850,6 +855,7 @@
 				FF7351B62186A0FE00D0BE05 /* GQBaseImageView.m in Sources */,
 				FF7351AA2186A0FE00D0BE05 /* GQImageCacheManager.m in Sources */,
 				FF990AA221819E490064E598 /* ZWTipsUtil.m in Sources */,
+				FF7351ED21893DEF00D0BE05 /* TextViewCell.m in Sources */,
 				FF7351B42186A0FE00D0BE05 /* UIImageView+GQImageDownloader.m in Sources */,
 				FF73517121869CF900D0BE05 /* ZWFileOptionUtil.m in Sources */,
 				FF990AAC2182A1150064E598 /* JohnTopAlert.m in Sources */,
