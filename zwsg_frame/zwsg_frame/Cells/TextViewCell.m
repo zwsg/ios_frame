@@ -72,12 +72,10 @@
 //设置cellValue
 -(void)setCellValue:(NSString *)cellValue{
     self.cellValue=cellValue;
-    textView.text=cellValue;
 }
 
 -(NSString*)cellValue{
-    self.cellValue=textView.text;
-    return self.cellValue;
+   return textView.text;
 }
 
 //字数限制

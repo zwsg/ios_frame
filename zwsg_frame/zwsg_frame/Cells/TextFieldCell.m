@@ -86,12 +86,10 @@
 //设置cellValue
 -(void)setCellValue:(NSString *)cellValue{
     self.cellValue=cellValue;
-    textField.text=cellValue;
 }
 
 -(NSString*)cellValue{
-    self.cellValue=textField.text;
-    return self.cellValue;
+    return textField.text;
 }
 
 - (void)textViewDidChange:(UITextField *)textView

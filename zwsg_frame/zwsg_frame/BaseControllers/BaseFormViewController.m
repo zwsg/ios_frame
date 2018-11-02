@@ -66,7 +66,9 @@
                     else
                     {
                         //类型验证
-                        [self verifyStr:keyboardType value:value title:title];
+                        if (![self verifyStr:keyboardType value:value title:title]) {
+                            return;
+                        }
                     }
                 }
                 //选择
@@ -185,7 +187,9 @@
                     else
                     {
                         //类型验证
-                        [self verifyStr:keyboardType value:value title:title];
+                        if (![self verifyStr:keyboardType value:value title:title]) {
+                            return;
+                        }
                     }
                 }
                 //选择
@@ -280,13 +284,13 @@
     [self presentViewController:alertController animated:YES completion:nil];
 }
 
--(void)verifyStr:(NSString*)keyboardType value:(NSString*)value title:(NSString*)title{
+-(BOOL)verifyStr:(NSString*)keyboardType value:(NSString*)value title:(NSString*)title{
     if ([keyboardType isEqualToString:@"IDNum"])
     {
         if (![ZWStringUtil isIDCardNum:value])
         {
             [[ZWTipsUtil sharedUtil] showWarm:[NSString stringWithFormat:@"%@格式不正确",title]];
-            return;
+            return NO;
         }
     }
     else if ([keyboardType isEqualToString:@"Phone"])//手机号
@@ -294,7 +298,7 @@
         if (![ZWStringUtil isMobile:value])
         {
             [[ZWTipsUtil sharedUtil] showWarm:[NSString stringWithFormat:@"%@格式不正确",title]];
-            return;
+            return NO;
         }
     }
     else if ([keyboardType isEqualToString:@"Tel"])//电话
@@ -302,7 +306,7 @@
         if (![ZWStringUtil isTel:value])
         {
             [[ZWTipsUtil sharedUtil] showWarm:[NSString stringWithFormat:@"%@格式不正确",title]];
-            return;
+            return NO;
         }
     }
     else if ([keyboardType isEqualToString:@"PhoneTel"])
@@ -310,7 +314,7 @@
         if (![ZWStringUtil isMobile:value] && ![ZWStringUtil isTel:value])
         {
             [[ZWTipsUtil sharedUtil] showWarm:[NSString stringWithFormat:@"%@格式不正确",title]];
-            return;
+            return NO;
         }
     }
     else if ([keyboardType isEqualToString:@"CarNum"])
@@ -318,9 +322,10 @@
         if (![ZWStringUtil isCarNum:value])
         {
             [[ZWTipsUtil sharedUtil] showWarm:[NSString stringWithFormat:@"%@格式不正确",title]];
-            return;
+            return NO;
         }
     }
+    return YES;
 }
 #pragma mark UITableViewDataSource
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
