@@ -21,6 +21,7 @@
 #import "TextFieldCell.h"
 #import "TextViewCell.h"
 #import "SelectCell.h"
+#import "WSDatePickerView.h"
 @interface TestFormViewController ()
 
 @end
@@ -37,8 +38,12 @@
     [sec1Arr addObject:[[TextViewCell alloc] initTitle:@"测试textView" key:@"tv"]];
     [sec1Arr addObject:[[[SelectCell alloc] initTitle:@"测试selectCell" value:@"二道湾的无多翁多翁多翁多翁多翁多翁多翁的无多翁多无多翁的无多翁多dwdwdwcswcdscsdcdscdscds" key:@"select" cellValue:@"123456"] setClick:^(BaseFormTableViewCell *cell, UIView *valueView) {
         UILabel *lblValue = (UILabel*)valueView;
-        lblValue.text = @"选择成功";
-        cell.cellValue = @"哈哈哈哈";
+        WSDatePickerView *datepicker = [[WSDatePickerView alloc] initWithDateStyle:DateStyleShowYearMonthDayHourMinute CompleteBlock:^(NSDate *selectDate) {
+            NSString *dateString = [selectDate stringWithFormat:@"yyyy-MM-dd HH:mm"];
+            lblValue.text = dateString;
+            cell.cellValue = [ZWTimeUtil timeToTimeStamp:dateString withFormat:@"yyyy-MM-dd HH:mm"];
+        }];
+        [datepicker show];
     }]];
     [self.cells addObject:sec1Arr];
     [self setFootV];

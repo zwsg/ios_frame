@@ -45,5 +45,5 @@
 // 当前时间是星期几
 + (NSString *)getCurrentTimeWithWeek;
 // 时间字符串转化为时间戳
-+ (CGFloat)timeToTimeStamp:(NSString *)timeStr withFormat:(NSString *)timeFormat;
++ (NSString*)timeToTimeStamp:(NSString *)timeStr withFormat:(NSString *)timeFormat;
 @end

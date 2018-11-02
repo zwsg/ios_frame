@@ -186,7 +186,7 @@
     return str ? str : @"";
 }
 #pragma mark - 把时间字符串转换成时间戳
-+ (CGFloat)timeToTimeStamp:(NSString *)timeStr withFormat:(NSString *)timeFormat
++ (NSString*)timeToTimeStamp:(NSString *)timeStr withFormat:(NSString *)timeFormat
 {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateStyle:NSDateFormatterMediumStyle];
@@ -202,7 +202,7 @@
     //时间转时间戳的方法:
     CGFloat timeStamp = [date timeIntervalSince1970]*1000; // *1000 是精确到毫秒，不乘就是精确到秒
     
-    return timeStamp;
+    return [NSString stringWithFormat:@"%.0f",timeStamp];
 }
 
 + (NSString *)distanceTimeWithBeforeTime:(double)time
