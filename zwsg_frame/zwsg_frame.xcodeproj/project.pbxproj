@@ -53,33 +53,33 @@
 		FF7351D82187F85F00D0BE05 /* BaseFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351D72187F85F00D0BE05 /* BaseFormViewController.m */; };
 		FF7351DE21892F4900D0BE05 /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351DD21892F4900D0BE05 /* TextFieldCell.m */; };
 		FF7351E12189305900D0BE05 /* TestFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351E02189305900D0BE05 /* TestFormViewController.m */; };
-		FF7351E82189372C00D0BE05 /* WTCarKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351E42189372C00D0BE05 /* WTCarKeyboard.m */; };
-		FF7351E92189372C00D0BE05 /* WTCarKeyboardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7351E52189372C00D0BE05 /* WTCarKeyboardBack.png */; };
-		FF7351EA2189372C00D0BE05 /* WTCarKeyboardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351E72189372C00D0BE05 /* WTCarKeyboardModel.m */; };
 		FF7351ED21893DEF00D0BE05 /* TextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351EC21893DEF00D0BE05 /* TextViewCell.m */; };
 		FF7351F0218AD2E900D0BE05 /* SelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351EF218AD2E900D0BE05 /* SelectCell.m */; };
-		FF7351F9218BE8D900D0BE05 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351F3218BE8D900D0BE05 /* NSDate+Extension.m */; };
-		FF7351FA218BE8D900D0BE05 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351F5218BE8D900D0BE05 /* UIView+Extension.m */; };
-		FF7351FB218BE8D900D0BE05 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351F7218BE8D900D0BE05 /* WSDatePickerView.m */; };
-		FF7351FC218BE8D900D0BE05 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7351F8218BE8D900D0BE05 /* WSDatePickerView.xib */; };
-		FF73520F218BEC3800D0BE05 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7351FF218BEC3800D0BE05 /* UIView+ZJFrame.m */; };
-		FF735210218BEC3800D0BE05 /* UIViewController+ZJScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735201218BEC3800D0BE05 /* UIViewController+ZJScrollPageController.m */; };
-		FF735211218BEC3800D0BE05 /* ZJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735203218BEC3800D0BE05 /* ZJCollectionView.m */; };
-		FF735212218BEC3800D0BE05 /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735205218BEC3800D0BE05 /* ZJContentView.m */; };
-		FF735213218BEC3800D0BE05 /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735207218BEC3800D0BE05 /* ZJScrollPageView.m */; };
-		FF735214218BEC3800D0BE05 /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73520A218BEC3800D0BE05 /* ZJScrollSegmentView.m */; };
-		FF735215218BEC3800D0BE05 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73520C218BEC3800D0BE05 /* ZJSegmentStyle.m */; };
-		FF735216218BEC3800D0BE05 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73520E218BEC3800D0BE05 /* ZJTitleView.m */; };
-		FF73522A218BEC6900D0BE05 /* EBBannerView+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73521A218BEC6800D0BE05 /* EBBannerView+Categories.m */; };
-		FF73522B218BEC6900D0BE05 /* EBBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73521B218BEC6800D0BE05 /* EBBannerView.m */; };
-		FF73522C218BEC6900D0BE05 /* EBBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF73521C218BEC6800D0BE05 /* EBBannerView.xib */; };
-		FF73522D218BEC6900D0BE05 /* EBBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73521D218BEC6800D0BE05 /* EBBannerViewController.m */; };
-		FF73522E218BEC6900D0BE05 /* EBBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF73521E218BEC6800D0BE05 /* EBBannerViewController.xib */; };
-		FF73522F218BEC6900D0BE05 /* EBBannerViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73521F218BEC6800D0BE05 /* EBBannerViewMaker.m */; };
-		FF735230218BEC6900D0BE05 /* EBBannerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735221218BEC6800D0BE05 /* EBBannerWindow.m */; };
-		FF735231218BEC6900D0BE05 /* EBCustomBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735222218BEC6800D0BE05 /* EBCustomBannerView.m */; };
-		FF735232218BEC6900D0BE05 /* EBEmptyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735224218BEC6800D0BE05 /* EBEmptyWindow.m */; };
-		FF735233218BEC6900D0BE05 /* EBMuteDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735226218BEC6800D0BE05 /* EBMuteDetector.m */; };
+		FF73523F218BEE9300D0BE05 /* WTCarKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73523B218BEE9300D0BE05 /* WTCarKeyboard.m */; };
+		FF735240218BEE9300D0BE05 /* WTCarKeyboardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FF73523C218BEE9300D0BE05 /* WTCarKeyboardBack.png */; };
+		FF735241218BEE9300D0BE05 /* WTCarKeyboardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73523E218BEE9300D0BE05 /* WTCarKeyboardModel.m */; };
+		FF735254218BEEAB00D0BE05 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735244218BEEAB00D0BE05 /* UIView+ZJFrame.m */; };
+		FF735255218BEEAB00D0BE05 /* UIViewController+ZJScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735246218BEEAB00D0BE05 /* UIViewController+ZJScrollPageController.m */; };
+		FF735256218BEEAB00D0BE05 /* ZJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735248218BEEAB00D0BE05 /* ZJCollectionView.m */; };
+		FF735257218BEEAB00D0BE05 /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73524A218BEEAB00D0BE05 /* ZJContentView.m */; };
+		FF735258218BEEAB00D0BE05 /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73524C218BEEAB00D0BE05 /* ZJScrollPageView.m */; };
+		FF735259218BEEAB00D0BE05 /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73524F218BEEAB00D0BE05 /* ZJScrollSegmentView.m */; };
+		FF73525A218BEEAB00D0BE05 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735251218BEEAB00D0BE05 /* ZJSegmentStyle.m */; };
+		FF73525B218BEEAB00D0BE05 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735253218BEEAB00D0BE05 /* ZJTitleView.m */; };
+		FF735264218BEEBE00D0BE05 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73525E218BEEBD00D0BE05 /* NSDate+Extension.m */; };
+		FF735265218BEEBE00D0BE05 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735260218BEEBD00D0BE05 /* UIView+Extension.m */; };
+		FF735266218BEEBE00D0BE05 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735262218BEEBD00D0BE05 /* WSDatePickerView.m */; };
+		FF735267218BEEBE00D0BE05 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF735263218BEEBD00D0BE05 /* WSDatePickerView.xib */; };
+		FF73527B218BEEDC00D0BE05 /* EBBannerView+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73526B218BEEDC00D0BE05 /* EBBannerView+Categories.m */; };
+		FF73527C218BEEDC00D0BE05 /* EBBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73526C218BEEDC00D0BE05 /* EBBannerView.m */; };
+		FF73527D218BEEDC00D0BE05 /* EBBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF73526D218BEEDC00D0BE05 /* EBBannerView.xib */; };
+		FF73527E218BEEDC00D0BE05 /* EBBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73526E218BEEDC00D0BE05 /* EBBannerViewController.m */; };
+		FF73527F218BEEDC00D0BE05 /* EBBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF73526F218BEEDC00D0BE05 /* EBBannerViewController.xib */; };
+		FF735280218BEEDC00D0BE05 /* EBBannerViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735270218BEEDC00D0BE05 /* EBBannerViewMaker.m */; };
+		FF735281218BEEDC00D0BE05 /* EBBannerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735272218BEEDC00D0BE05 /* EBBannerWindow.m */; };
+		FF735282218BEEDC00D0BE05 /* EBCustomBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735273218BEEDC00D0BE05 /* EBCustomBannerView.m */; };
+		FF735283218BEEDC00D0BE05 /* EBEmptyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735275218BEEDC00D0BE05 /* EBEmptyWindow.m */; };
+		FF735284218BEEDC00D0BE05 /* EBMuteDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735277218BEEDC00D0BE05 /* EBMuteDetector.m */; };
 		FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9221815CA80064E598 /* ZWHelpUtil.m */; };
 		FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9521815F210064E598 /* ZWLoginUtil.m */; };
 		FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A972181627E0064E598 /* ZWHttpUtil.m */; };
@@ -218,56 +218,56 @@
 		FF7351DD21892F4900D0BE05 /* TextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
 		FF7351DF2189305900D0BE05 /* TestFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFormViewController.h; sourceTree = "<group>"; };
 		FF7351E02189305900D0BE05 /* TestFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFormViewController.m; sourceTree = "<group>"; };
-		FF7351E32189372C00D0BE05 /* WTCarKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTCarKeyboard.h; sourceTree = "<group>"; };
-		FF7351E42189372C00D0BE05 /* WTCarKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTCarKeyboard.m; sourceTree = "<group>"; };
-		FF7351E52189372C00D0BE05 /* WTCarKeyboardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WTCarKeyboardBack.png; sourceTree = "<group>"; };
-		FF7351E62189372C00D0BE05 /* WTCarKeyboardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTCarKeyboardModel.h; sourceTree = "<group>"; };
-		FF7351E72189372C00D0BE05 /* WTCarKeyboardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTCarKeyboardModel.m; sourceTree = "<group>"; };
 		FF7351EB21893DEF00D0BE05 /* TextViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewCell.h; sourceTree = "<group>"; };
 		FF7351EC21893DEF00D0BE05 /* TextViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewCell.m; sourceTree = "<group>"; };
 		FF7351EE218AD2E900D0BE05 /* SelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectCell.h; sourceTree = "<group>"; };
 		FF7351EF218AD2E900D0BE05 /* SelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectCell.m; sourceTree = "<group>"; };
-		FF7351F2218BE8D900D0BE05 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
-		FF7351F3218BE8D900D0BE05 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
-		FF7351F4218BE8D900D0BE05 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		FF7351F5218BE8D900D0BE05 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		FF7351F6218BE8D900D0BE05 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
-		FF7351F7218BE8D900D0BE05 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
-		FF7351F8218BE8D900D0BE05 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
-		FF7351FE218BEC3800D0BE05 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJFrame.h"; sourceTree = "<group>"; };
-		FF7351FF218BEC3800D0BE05 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJFrame.m"; sourceTree = "<group>"; };
-		FF735200218BEC3800D0BE05 /* UIViewController+ZJScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZJScrollPageController.h"; sourceTree = "<group>"; };
-		FF735201218BEC3800D0BE05 /* UIViewController+ZJScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZJScrollPageController.m"; sourceTree = "<group>"; };
-		FF735202218BEC3800D0BE05 /* ZJCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCollectionView.h; sourceTree = "<group>"; };
-		FF735203218BEC3800D0BE05 /* ZJCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCollectionView.m; sourceTree = "<group>"; };
-		FF735204218BEC3800D0BE05 /* ZJContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJContentView.h; sourceTree = "<group>"; };
-		FF735205218BEC3800D0BE05 /* ZJContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJContentView.m; sourceTree = "<group>"; };
-		FF735206218BEC3800D0BE05 /* ZJScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageView.h; sourceTree = "<group>"; };
-		FF735207218BEC3800D0BE05 /* ZJScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollPageView.m; sourceTree = "<group>"; };
-		FF735208218BEC3800D0BE05 /* ZJScrollPageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageViewDelegate.h; sourceTree = "<group>"; };
-		FF735209218BEC3800D0BE05 /* ZJScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollSegmentView.h; sourceTree = "<group>"; };
-		FF73520A218BEC3800D0BE05 /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollSegmentView.m; sourceTree = "<group>"; };
-		FF73520B218BEC3800D0BE05 /* ZJSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSegmentStyle.h; sourceTree = "<group>"; };
-		FF73520C218BEC3800D0BE05 /* ZJSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegmentStyle.m; sourceTree = "<group>"; };
-		FF73520D218BEC3800D0BE05 /* ZJTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTitleView.h; sourceTree = "<group>"; };
-		FF73520E218BEC3800D0BE05 /* ZJTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTitleView.m; sourceTree = "<group>"; };
-		FF735219218BEC6800D0BE05 /* EBBannerView+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EBBannerView+Categories.h"; sourceTree = "<group>"; };
-		FF73521A218BEC6800D0BE05 /* EBBannerView+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EBBannerView+Categories.m"; sourceTree = "<group>"; };
-		FF73521B218BEC6800D0BE05 /* EBBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBannerView.m; sourceTree = "<group>"; };
-		FF73521C218BEC6800D0BE05 /* EBBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBBannerView.xib; sourceTree = "<group>"; };
-		FF73521D218BEC6800D0BE05 /* EBBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBannerViewController.m; sourceTree = "<group>"; };
-		FF73521E218BEC6800D0BE05 /* EBBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBBannerViewController.xib; sourceTree = "<group>"; };
-		FF73521F218BEC6800D0BE05 /* EBBannerViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBannerViewMaker.m; sourceTree = "<group>"; };
-		FF735220218BEC6800D0BE05 /* EBBannerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBannerWindow.h; sourceTree = "<group>"; };
-		FF735221218BEC6800D0BE05 /* EBBannerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBannerWindow.m; sourceTree = "<group>"; };
-		FF735222218BEC6800D0BE05 /* EBCustomBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCustomBannerView.m; sourceTree = "<group>"; };
-		FF735223218BEC6800D0BE05 /* EBEmptyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBEmptyWindow.h; sourceTree = "<group>"; };
-		FF735224218BEC6800D0BE05 /* EBEmptyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBEmptyWindow.m; sourceTree = "<group>"; };
-		FF735225218BEC6800D0BE05 /* EBMuteDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBMuteDetector.h; sourceTree = "<group>"; };
-		FF735226218BEC6800D0BE05 /* EBMuteDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBMuteDetector.m; sourceTree = "<group>"; };
-		FF735227218BEC6800D0BE05 /* EBBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBannerView.h; sourceTree = "<group>"; };
-		FF735228218BEC6800D0BE05 /* EBBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBannerViewController.h; sourceTree = "<group>"; };
-		FF735229218BEC6800D0BE05 /* EBCustomBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCustomBannerView.h; sourceTree = "<group>"; };
+		FF73523A218BEE9300D0BE05 /* WTCarKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTCarKeyboard.h; sourceTree = "<group>"; };
+		FF73523B218BEE9300D0BE05 /* WTCarKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTCarKeyboard.m; sourceTree = "<group>"; };
+		FF73523C218BEE9300D0BE05 /* WTCarKeyboardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WTCarKeyboardBack.png; sourceTree = "<group>"; };
+		FF73523D218BEE9300D0BE05 /* WTCarKeyboardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTCarKeyboardModel.h; sourceTree = "<group>"; };
+		FF73523E218BEE9300D0BE05 /* WTCarKeyboardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTCarKeyboardModel.m; sourceTree = "<group>"; };
+		FF735243218BEEAB00D0BE05 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJFrame.h"; sourceTree = "<group>"; };
+		FF735244218BEEAB00D0BE05 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJFrame.m"; sourceTree = "<group>"; };
+		FF735245218BEEAB00D0BE05 /* UIViewController+ZJScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZJScrollPageController.h"; sourceTree = "<group>"; };
+		FF735246218BEEAB00D0BE05 /* UIViewController+ZJScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZJScrollPageController.m"; sourceTree = "<group>"; };
+		FF735247218BEEAB00D0BE05 /* ZJCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCollectionView.h; sourceTree = "<group>"; };
+		FF735248218BEEAB00D0BE05 /* ZJCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCollectionView.m; sourceTree = "<group>"; };
+		FF735249218BEEAB00D0BE05 /* ZJContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJContentView.h; sourceTree = "<group>"; };
+		FF73524A218BEEAB00D0BE05 /* ZJContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJContentView.m; sourceTree = "<group>"; };
+		FF73524B218BEEAB00D0BE05 /* ZJScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageView.h; sourceTree = "<group>"; };
+		FF73524C218BEEAB00D0BE05 /* ZJScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollPageView.m; sourceTree = "<group>"; };
+		FF73524D218BEEAB00D0BE05 /* ZJScrollPageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageViewDelegate.h; sourceTree = "<group>"; };
+		FF73524E218BEEAB00D0BE05 /* ZJScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollSegmentView.h; sourceTree = "<group>"; };
+		FF73524F218BEEAB00D0BE05 /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollSegmentView.m; sourceTree = "<group>"; };
+		FF735250218BEEAB00D0BE05 /* ZJSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSegmentStyle.h; sourceTree = "<group>"; };
+		FF735251218BEEAB00D0BE05 /* ZJSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegmentStyle.m; sourceTree = "<group>"; };
+		FF735252218BEEAB00D0BE05 /* ZJTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTitleView.h; sourceTree = "<group>"; };
+		FF735253218BEEAB00D0BE05 /* ZJTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTitleView.m; sourceTree = "<group>"; };
+		FF73525D218BEEBD00D0BE05 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		FF73525E218BEEBD00D0BE05 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		FF73525F218BEEBD00D0BE05 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		FF735260218BEEBD00D0BE05 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		FF735261218BEEBD00D0BE05 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
+		FF735262218BEEBD00D0BE05 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
+		FF735263218BEEBD00D0BE05 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
+		FF73526A218BEEDC00D0BE05 /* EBBannerView+Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EBBannerView+Categories.h"; sourceTree = "<group>"; };
+		FF73526B218BEEDC00D0BE05 /* EBBannerView+Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EBBannerView+Categories.m"; sourceTree = "<group>"; };
+		FF73526C218BEEDC00D0BE05 /* EBBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBannerView.m; sourceTree = "<group>"; };
+		FF73526D218BEEDC00D0BE05 /* EBBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBBannerView.xib; sourceTree = "<group>"; };
+		FF73526E218BEEDC00D0BE05 /* EBBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBannerViewController.m; sourceTree = "<group>"; };
+		FF73526F218BEEDC00D0BE05 /* EBBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBBannerViewController.xib; sourceTree = "<group>"; };
+		FF735270218BEEDC00D0BE05 /* EBBannerViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBannerViewMaker.m; sourceTree = "<group>"; };
+		FF735271218BEEDC00D0BE05 /* EBBannerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBannerWindow.h; sourceTree = "<group>"; };
+		FF735272218BEEDC00D0BE05 /* EBBannerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBannerWindow.m; sourceTree = "<group>"; };
+		FF735273218BEEDC00D0BE05 /* EBCustomBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCustomBannerView.m; sourceTree = "<group>"; };
+		FF735274218BEEDC00D0BE05 /* EBEmptyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBEmptyWindow.h; sourceTree = "<group>"; };
+		FF735275218BEEDC00D0BE05 /* EBEmptyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBEmptyWindow.m; sourceTree = "<group>"; };
+		FF735276218BEEDC00D0BE05 /* EBMuteDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBMuteDetector.h; sourceTree = "<group>"; };
+		FF735277218BEEDC00D0BE05 /* EBMuteDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBMuteDetector.m; sourceTree = "<group>"; };
+		FF735278218BEEDC00D0BE05 /* EBBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBannerView.h; sourceTree = "<group>"; };
+		FF735279218BEEDC00D0BE05 /* EBBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBannerViewController.h; sourceTree = "<group>"; };
+		FF73527A218BEEDC00D0BE05 /* EBCustomBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCustomBannerView.h; sourceTree = "<group>"; };
 		FF990A9121815CA80064E598 /* ZWHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWHelpUtil.h; sourceTree = "<group>"; };
 		FF990A9221815CA80064E598 /* ZWHelpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWHelpUtil.m; sourceTree = "<group>"; };
 		FF990A9421815F210064E598 /* ZWLoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLoginUtil.h; sourceTree = "<group>"; };
@@ -640,88 +640,84 @@
 			path = GQBaseObject;
 			sourceTree = "<group>";
 		};
-		FF7351E22189372C00D0BE05 /* WTCarKeyboard */ = {
+		FF735239218BEE9300D0BE05 /* WTCarKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				FF7351E32189372C00D0BE05 /* WTCarKeyboard.h */,
-				FF7351E42189372C00D0BE05 /* WTCarKeyboard.m */,
-				FF7351E52189372C00D0BE05 /* WTCarKeyboardBack.png */,
-				FF7351E62189372C00D0BE05 /* WTCarKeyboardModel.h */,
-				FF7351E72189372C00D0BE05 /* WTCarKeyboardModel.m */,
+				FF73523A218BEE9300D0BE05 /* WTCarKeyboard.h */,
+				FF73523B218BEE9300D0BE05 /* WTCarKeyboard.m */,
+				FF73523C218BEE9300D0BE05 /* WTCarKeyboardBack.png */,
+				FF73523D218BEE9300D0BE05 /* WTCarKeyboardModel.h */,
+				FF73523E218BEE9300D0BE05 /* WTCarKeyboardModel.m */,
 			);
-			name = WTCarKeyboard;
-			path = "../../../../../图/WTCarKeyboard";
+			path = WTCarKeyboard;
 			sourceTree = "<group>";
 		};
-		FF7351F1218BE8D900D0BE05 /* WSDaePickerView */ = {
+		FF735242218BEEAB00D0BE05 /* ZJScrollPageView */ = {
 			isa = PBXGroup;
 			children = (
-				FF7351F2218BE8D900D0BE05 /* NSDate+Extension.h */,
-				FF7351F3218BE8D900D0BE05 /* NSDate+Extension.m */,
-				FF7351F4218BE8D900D0BE05 /* UIView+Extension.h */,
-				FF7351F5218BE8D900D0BE05 /* UIView+Extension.m */,
-				FF7351F6218BE8D900D0BE05 /* WSDatePickerView.h */,
-				FF7351F7218BE8D900D0BE05 /* WSDatePickerView.m */,
-				FF7351F8218BE8D900D0BE05 /* WSDatePickerView.xib */,
+				FF735243218BEEAB00D0BE05 /* UIView+ZJFrame.h */,
+				FF735244218BEEAB00D0BE05 /* UIView+ZJFrame.m */,
+				FF735245218BEEAB00D0BE05 /* UIViewController+ZJScrollPageController.h */,
+				FF735246218BEEAB00D0BE05 /* UIViewController+ZJScrollPageController.m */,
+				FF735247218BEEAB00D0BE05 /* ZJCollectionView.h */,
+				FF735248218BEEAB00D0BE05 /* ZJCollectionView.m */,
+				FF735249218BEEAB00D0BE05 /* ZJContentView.h */,
+				FF73524A218BEEAB00D0BE05 /* ZJContentView.m */,
+				FF73524B218BEEAB00D0BE05 /* ZJScrollPageView.h */,
+				FF73524C218BEEAB00D0BE05 /* ZJScrollPageView.m */,
+				FF73524D218BEEAB00D0BE05 /* ZJScrollPageViewDelegate.h */,
+				FF73524E218BEEAB00D0BE05 /* ZJScrollSegmentView.h */,
+				FF73524F218BEEAB00D0BE05 /* ZJScrollSegmentView.m */,
+				FF735250218BEEAB00D0BE05 /* ZJSegmentStyle.h */,
+				FF735251218BEEAB00D0BE05 /* ZJSegmentStyle.m */,
+				FF735252218BEEAB00D0BE05 /* ZJTitleView.h */,
+				FF735253218BEEAB00D0BE05 /* ZJTitleView.m */,
 			);
-			name = WSDaePickerView;
-			path = "../../../../../图/WSDaePickerView";
+			path = ZJScrollPageView;
 			sourceTree = "<group>";
 		};
-		FF7351FD218BEC3800D0BE05 /* ZJScrollPageView */ = {
+		FF73525C218BEEBD00D0BE05 /* WSDaePickerView */ = {
 			isa = PBXGroup;
 			children = (
-				FF7351FE218BEC3800D0BE05 /* UIView+ZJFrame.h */,
-				FF7351FF218BEC3800D0BE05 /* UIView+ZJFrame.m */,
-				FF735200218BEC3800D0BE05 /* UIViewController+ZJScrollPageController.h */,
-				FF735201218BEC3800D0BE05 /* UIViewController+ZJScrollPageController.m */,
-				FF735202218BEC3800D0BE05 /* ZJCollectionView.h */,
-				FF735203218BEC3800D0BE05 /* ZJCollectionView.m */,
-				FF735204218BEC3800D0BE05 /* ZJContentView.h */,
-				FF735205218BEC3800D0BE05 /* ZJContentView.m */,
-				FF735206218BEC3800D0BE05 /* ZJScrollPageView.h */,
-				FF735207218BEC3800D0BE05 /* ZJScrollPageView.m */,
-				FF735208218BEC3800D0BE05 /* ZJScrollPageViewDelegate.h */,
-				FF735209218BEC3800D0BE05 /* ZJScrollSegmentView.h */,
-				FF73520A218BEC3800D0BE05 /* ZJScrollSegmentView.m */,
-				FF73520B218BEC3800D0BE05 /* ZJSegmentStyle.h */,
-				FF73520C218BEC3800D0BE05 /* ZJSegmentStyle.m */,
-				FF73520D218BEC3800D0BE05 /* ZJTitleView.h */,
-				FF73520E218BEC3800D0BE05 /* ZJTitleView.m */,
+				FF73525D218BEEBD00D0BE05 /* NSDate+Extension.h */,
+				FF73525E218BEEBD00D0BE05 /* NSDate+Extension.m */,
+				FF73525F218BEEBD00D0BE05 /* UIView+Extension.h */,
+				FF735260218BEEBD00D0BE05 /* UIView+Extension.m */,
+				FF735261218BEEBD00D0BE05 /* WSDatePickerView.h */,
+				FF735262218BEEBD00D0BE05 /* WSDatePickerView.m */,
+				FF735263218BEEBD00D0BE05 /* WSDatePickerView.xib */,
 			);
-			name = ZJScrollPageView;
-			path = "../../../../../图/ZJScrollPageView";
+			path = WSDaePickerView;
 			sourceTree = "<group>";
 		};
-		FF735217218BEC6800D0BE05 /* EBBanner */ = {
+		FF735268218BEEDC00D0BE05 /* EBBanner */ = {
 			isa = PBXGroup;
 			children = (
-				FF735218218BEC6800D0BE05 /* Classes */,
-				FF735227218BEC6800D0BE05 /* EBBannerView.h */,
-				FF735228218BEC6800D0BE05 /* EBBannerViewController.h */,
-				FF735229218BEC6800D0BE05 /* EBCustomBannerView.h */,
+				FF735269218BEEDC00D0BE05 /* Classes */,
+				FF735278218BEEDC00D0BE05 /* EBBannerView.h */,
+				FF735279218BEEDC00D0BE05 /* EBBannerViewController.h */,
+				FF73527A218BEEDC00D0BE05 /* EBCustomBannerView.h */,
 			);
-			name = EBBanner;
-			path = "../../../../../图/EBBanner";
+			path = EBBanner;
 			sourceTree = "<group>";
 		};
-		FF735218218BEC6800D0BE05 /* Classes */ = {
+		FF735269218BEEDC00D0BE05 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FF735219218BEC6800D0BE05 /* EBBannerView+Categories.h */,
-				FF73521A218BEC6800D0BE05 /* EBBannerView+Categories.m */,
-				FF73521B218BEC6800D0BE05 /* EBBannerView.m */,
-				FF73521C218BEC6800D0BE05 /* EBBannerView.xib */,
-				FF73521D218BEC6800D0BE05 /* EBBannerViewController.m */,
-				FF73521E218BEC6800D0BE05 /* EBBannerViewController.xib */,
-				FF73521F218BEC6800D0BE05 /* EBBannerViewMaker.m */,
-				FF735220218BEC6800D0BE05 /* EBBannerWindow.h */,
-				FF735221218BEC6800D0BE05 /* EBBannerWindow.m */,
-				FF735222218BEC6800D0BE05 /* EBCustomBannerView.m */,
-				FF735223218BEC6800D0BE05 /* EBEmptyWindow.h */,
-				FF735224218BEC6800D0BE05 /* EBEmptyWindow.m */,
-				FF735225218BEC6800D0BE05 /* EBMuteDetector.h */,
-				FF735226218BEC6800D0BE05 /* EBMuteDetector.m */,
+				FF73526A218BEEDC00D0BE05 /* EBBannerView+Categories.h */,
+				FF73526B218BEEDC00D0BE05 /* EBBannerView+Categories.m */,
+				FF73526C218BEEDC00D0BE05 /* EBBannerView.m */,
+				FF73526D218BEEDC00D0BE05 /* EBBannerView.xib */,
+				FF73526E218BEEDC00D0BE05 /* EBBannerViewController.m */,
+				FF73526F218BEEDC00D0BE05 /* EBBannerViewController.xib */,
+				FF735270218BEEDC00D0BE05 /* EBBannerViewMaker.m */,
+				FF735271218BEEDC00D0BE05 /* EBBannerWindow.h */,
+				FF735272218BEEDC00D0BE05 /* EBBannerWindow.m */,
+				FF735273218BEEDC00D0BE05 /* EBCustomBannerView.m */,
+				FF735274218BEEDC00D0BE05 /* EBEmptyWindow.h */,
+				FF735275218BEEDC00D0BE05 /* EBEmptyWindow.m */,
+				FF735276218BEEDC00D0BE05 /* EBMuteDetector.h */,
+				FF735277218BEEDC00D0BE05 /* EBMuteDetector.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -729,10 +725,10 @@
 		FF990AA32182A0A60064E598 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				FF735217218BEC6800D0BE05 /* EBBanner */,
-				FF7351FD218BEC3800D0BE05 /* ZJScrollPageView */,
-				FF7351F1218BE8D900D0BE05 /* WSDaePickerView */,
-				FF7351E22189372C00D0BE05 /* WTCarKeyboard */,
+				FF735268218BEEDC00D0BE05 /* EBBanner */,
+				FF73525C218BEEBD00D0BE05 /* WSDaePickerView */,
+				FF735242218BEEAB00D0BE05 /* ZJScrollPageView */,
+				FF735239218BEE9300D0BE05 /* WTCarKeyboard */,
 				FF7351752186A0FE00D0BE05 /* GQPicVideo */,
 				FF990ABE2182F4ED0064E598 /* XLTieBarLoading */,
 				FF990AA42182A1150064E598 /* JohnAlert */,
@@ -886,18 +882,18 @@
 			files = (
 				FF990AC42182F4ED0064E598 /* 1.png in Resources */,
 				FF551B05213524BF001EC09F /* Assets.xcassets in Resources */,
-				FF73522C218BEC6900D0BE05 /* EBBannerView.xib in Resources */,
+				FF73527D218BEEDC00D0BE05 /* EBBannerView.xib in Resources */,
 				FF990AC52182F4ED0064E598 /* 2.png in Resources */,
 				FF990AB62182E68E0064E598 /* bannerTipSuccess@2x.png in Resources */,
 				FF990AB42182E68E0064E598 /* bannerTipWarm@2x.png in Resources */,
 				FF990AB52182E68E0064E598 /* bannerTipFaild@3x.png in Resources */,
-				FF7351E92189372C00D0BE05 /* WTCarKeyboardBack.png in Resources */,
+				FF735240218BEE9300D0BE05 /* WTCarKeyboardBack.png in Resources */,
 				FF990AB72182E68E0064E598 /* bannerTipWarm@3x.png in Resources */,
 				FF990AB92182E68E0064E598 /* bannerTipFaild@2x.png in Resources */,
 				FF551B41213532F9001EC09F /* LaunchScreen.storyboard in Resources */,
-				FF7351FC218BE8D900D0BE05 /* WSDatePickerView.xib in Resources */,
+				FF735267218BEEBE00D0BE05 /* WSDatePickerView.xib in Resources */,
 				FF990AB82182E68E0064E598 /* bannerTipSuccess@3x.png in Resources */,
-				FF73522E218BEC6900D0BE05 /* EBBannerViewController.xib in Resources */,
+				FF73527F218BEEDC00D0BE05 /* EBBannerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -973,78 +969,78 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF735212218BEC3800D0BE05 /* ZJContentView.m in Sources */,
 				FF7351AD2186A0FE00D0BE05 /* GQImageDownloaderOperationManager.m in Sources */,
-				FF735211218BEC3800D0BE05 /* ZJCollectionView.m in Sources */,
 				FF7351B82186A0FE00D0BE05 /* GQBaseVideoView.m in Sources */,
-				FF73522A218BEC6900D0BE05 /* EBBannerView+Categories.m in Sources */,
 				FF551B5221362A2E001EC09F /* ZWStringUtil.m in Sources */,
 				FF551B03213524BF001EC09F /* zwsg_frame.xcdatamodeld in Sources */,
+				FF73527B218BEEDC00D0BE05 /* EBBannerView+Categories.m in Sources */,
 				FF7351AB2186A0FE00D0BE05 /* GQImageGobalPaths.m in Sources */,
 				FF551B4921353F31001EC09F /* BaseViewController.m in Sources */,
-				FF7351FA218BE8D900D0BE05 /* UIView+Extension.m in Sources */,
+				FF735254218BEEAB00D0BE05 /* UIView+ZJFrame.m in Sources */,
+				FF73525A218BEEAB00D0BE05 /* ZJSegmentStyle.m in Sources */,
+				FF735255218BEEAB00D0BE05 /* UIViewController+ZJScrollPageController.m in Sources */,
+				FF735258218BEEAB00D0BE05 /* ZJScrollPageView.m in Sources */,
 				FF7351CF2187DDA400D0BE05 /* BaseTableViewCell.m in Sources */,
 				FF7351C92186D35500D0BE05 /* BaseTableViewController.m in Sources */,
 				FF7351C62186B02B00D0BE05 /* MainNavController.m in Sources */,
 				FF990A9F218166E70064E598 /* ZWJsonUtil.m in Sources */,
 				FF7351A92186A0FE00D0BE05 /* UIImage+GQImageDownloader.m in Sources */,
+				FF735265218BEEBE00D0BE05 /* UIView+Extension.m in Sources */,
 				FF7351C32186AFAE00D0BE05 /* MainTabBarController.m in Sources */,
 				FF7351B22186A0FE00D0BE05 /* GQImageDownloaderBaseURLRequest.m in Sources */,
 				FF7351E12189305900D0BE05 /* TestFormViewController.m in Sources */,
+				FF735241218BEE9300D0BE05 /* WTCarKeyboardModel.m in Sources */,
 				FF7351F0218AD2E900D0BE05 /* SelectCell.m in Sources */,
-				FF735210218BEC3800D0BE05 /* UIViewController+ZJScrollPageController.m in Sources */,
 				FF990AC92182F7B20064E598 /* UIColor+ZWColor.m in Sources */,
 				FF73516E2186987400D0BE05 /* ZWUploadFileUtil.m in Sources */,
+				FF735280218BEEDC00D0BE05 /* EBBannerViewMaker.m in Sources */,
 				FF990AAB2182A1150064E598 /* JohnAlertManager.m in Sources */,
+				FF73527C218BEEDC00D0BE05 /* EBBannerView.m in Sources */,
 				FF7351D82187F85F00D0BE05 /* BaseFormViewController.m in Sources */,
-				FF73522F218BEC6900D0BE05 /* EBBannerViewMaker.m in Sources */,
 				FF990ACF21830B140064E598 /* ZWTextViewUtil.m in Sources */,
-				FF73522B218BEC6900D0BE05 /* EBBannerView.m in Sources */,
 				FF551AFD213524BF001EC09F /* ViewController.m in Sources */,
 				FF7351AE2186A0FE00D0BE05 /* GQImageDownloaderSessionManager.m in Sources */,
 				FF551B0B213524BF001EC09F /* main.m in Sources */,
-				FF7351EA2189372C00D0BE05 /* WTCarKeyboardModel.m in Sources */,
 				FF7351D52187E02A00D0BE05 /* BaseFormTableViewCell.m in Sources */,
-				FF7351FB218BE8D900D0BE05 /* WSDatePickerView.m in Sources */,
 				FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */,
+				FF735256218BEEAB00D0BE05 /* ZJCollectionView.m in Sources */,
 				FF990AC62182F4ED0064E598 /* XLTieBarLoading.m in Sources */,
+				FF735257218BEEAB00D0BE05 /* ZJContentView.m in Sources */,
 				FF7351B62186A0FE00D0BE05 /* GQBaseImageView.m in Sources */,
-				FF7351F9218BE8D900D0BE05 /* NSDate+Extension.m in Sources */,
+				FF73527E218BEEDC00D0BE05 /* EBBannerViewController.m in Sources */,
 				FF7351AA2186A0FE00D0BE05 /* GQImageCacheManager.m in Sources */,
-				FF73522D218BEC6900D0BE05 /* EBBannerViewController.m in Sources */,
 				FF990AA221819E490064E598 /* ZWTipsUtil.m in Sources */,
 				FF7351ED21893DEF00D0BE05 /* TextViewCell.m in Sources */,
 				FF7351B42186A0FE00D0BE05 /* UIImageView+GQImageDownloader.m in Sources */,
 				FF73517121869CF900D0BE05 /* ZWFileOptionUtil.m in Sources */,
+				FF73525B218BEEAB00D0BE05 /* ZJTitleView.m in Sources */,
+				FF735284218BEEDC00D0BE05 /* EBMuteDetector.m in Sources */,
 				FF990AAC2182A1150064E598 /* JohnTopAlert.m in Sources */,
 				FF990A9C218163C90064E598 /* NSDictionary+ZWDictionary.m in Sources */,
-				FF735233218BEC6900D0BE05 /* EBMuteDetector.m in Sources */,
-				FF73520F218BEC3800D0BE05 /* UIView+ZJFrame.m in Sources */,
-				FF7351E82189372C00D0BE05 /* WTCarKeyboard.m in Sources */,
 				FF7351B72186A0FE00D0BE05 /* GQBaseTableView.m in Sources */,
 				FF7351B92186A0FE00D0BE05 /* GQImageVideoScrollView.m in Sources */,
 				FF7351AF2186A0FE00D0BE05 /* GQImageDownloaderSessionOperation.m in Sources */,
 				FF7351B12186A0FE00D0BE05 /* GQImageDataDownloader.m in Sources */,
 				FF7351B02186A0FE00D0BE05 /* GQImageDownloaderURLConnectionOperation.m in Sources */,
 				FF551AFA213524BF001EC09F /* AppDelegate.m in Sources */,
-				FF735214218BEC3800D0BE05 /* ZJScrollSegmentView.m in Sources */,
 				FF7351BB2186A0FE00D0BE05 /* GQImageVideoViewer.m in Sources */,
+				FF735266218BEEBE00D0BE05 /* WSDatePickerView.m in Sources */,
 				FF7351BA2186A0FE00D0BE05 /* GQImageVideoTableView.m in Sources */,
 				FF7351742186A05300D0BE05 /* ZWFileDetailUtil.m in Sources */,
 				FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */,
-				FF735230218BEC6900D0BE05 /* EBBannerWindow.m in Sources */,
+				FF735281218BEEDC00D0BE05 /* EBBannerWindow.m in Sources */,
+				FF735264218BEEBE00D0BE05 /* NSDate+Extension.m in Sources */,
 				FF7351A82186A0FE00D0BE05 /* NSData+GQImageDownloader.m in Sources */,
 				FF7351AC2186A0FE00D0BE05 /* GQImageDownloaderBaseOperation.m in Sources */,
+				FF735259218BEEAB00D0BE05 /* ZJScrollSegmentView.m in Sources */,
 				FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */,
-				FF735213218BEC3800D0BE05 /* ZJScrollPageView.m in Sources */,
 				FF73516B2186936A00D0BE05 /* ZWWordWrapUtil.m in Sources */,
-				FF735215218BEC3800D0BE05 /* ZJSegmentStyle.m in Sources */,
-				FF735232218BEC6900D0BE05 /* EBEmptyWindow.m in Sources */,
+				FF735283218BEEDC00D0BE05 /* EBEmptyWindow.m in Sources */,
 				FF7351DE21892F4900D0BE05 /* TextFieldCell.m in Sources */,
-				FF735231218BEC6900D0BE05 /* EBCustomBannerView.m in Sources */,
+				FF735282218BEEDC00D0BE05 /* EBCustomBannerView.m in Sources */,
 				FF7351CC2186D62B00D0BE05 /* TestTableViewController.m in Sources */,
+				FF73523F218BEE9300D0BE05 /* WTCarKeyboard.m in Sources */,
 				FF7351D22187DF0600D0BE05 /* UIView+ZWView.m in Sources */,
-				FF735216218BEC3800D0BE05 /* ZJTitleView.m in Sources */,
 				FF7351B52186A0FE00D0BE05 /* GQBaseImageVideoModel.m in Sources */,
 				FF990ACC218302580064E598 /* ZWTimeUtil.m in Sources */,
 			);
