@@ -19,9 +19,9 @@
 
 #import "TextViewCell.h"
 #import "ZWTextViewUtil.h"
-@interface TextViewCell ()<UITextViewDelegate>{
+
+@interface TextViewCell (){
     UITextView *textView;
-    UILabel *cueLbl;
 }
 @end
 @implementation TextViewCell
@@ -40,27 +40,16 @@
     textView = [[UITextView alloc]initWithFrame:CGRectMake(lblTitle.x+lblTitle.width+FORM_SPACE_CENTER-5, 0, screenWidth-(lblTitle.x+lblTitle.width+FORM_SPACE_CENTER)-FORM_PADDING_LEFT+5, 90)];
     textView.textColor = [UIColor colorWithHexString:COLR_SUB_TITLE];
     textView.font = [UIFont systemFontOfSize:FONT_SIZE_DEFAULT];
-    textView.delegate = self;
     self.valueView=textView;
     textView.text = self.value;
+    if([ZWStringUtil isNullOrEmpty:self.placeHolder]){
+        textView.placeholder=[NSString stringWithFormat:@"请输入%@",self.title];
+    }else{
+        textView.placeholder=self.placeHolder;
+    }
+    textView.maxInputLength = self.fieldLength;
     [self.contentView addSubview:textView];
     textView.centerY = self.centerY;
-    //提示语
-    cueLbl = [[UILabel alloc] initWithFrame:CGRectMake(5, 6, textView.width-10, 20)];
-    if ([ZWStringUtil isNullOrEmpty:self.value]){
-        cueLbl.hidden = NO;
-    }else{
-        cueLbl.hidden = YES;
-    }
-    if([ZWStringUtil isNullOrEmpty:self.placeHolder]){
-        cueLbl.text=[NSString stringWithFormat:@"请输入%@",self.title];
-    }else{
-        cueLbl.text=self.placeHolder;
-    }
-    cueLbl.numberOfLines = 0;
-    cueLbl.textColor = [UIColor colorWithHexString:COLR_PLACEHOLDER];
-    cueLbl.font = [UIFont systemFontOfSize:FONT_SIZE_DEFAULT];
-    [textView addSubview:cueLbl];
 }
 -(instancetype)initTitle:(NSString *)title key:(NSString *)key{
     if (self = [super initTitle:title key:key]) {
@@ -68,7 +57,12 @@
     }
     return self;
 }
-
+-(instancetype)initTitle:(NSString *)title key:(NSString *)key length:(NSInteger)length{
+    if (self = [super initTitle:title key:key length:length]) {
+        [self setUI];
+    }
+    return self;
+}
 //设置cellValue
 -(void)setCellValue:(NSString *)cellValue{
     self.cellValue=cellValue;
@@ -77,26 +71,4 @@
 -(NSString*)cellValue{
    return textView.text;
 }
-
-//字数限制
-- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range
- replacementText:(NSString *)text
-{
-    return [ZWTextViewUtil textView:textView shouldChangeTextInRange:range replacementText:text withMaxCount:self.fieldLength];
-}
-
-- (void)textViewDidChange:(UITextView *)textView
-{
-    if (textView.text.length == 0)
-    {
-        cueLbl.hidden = NO;
-    }
-    else
-    {
-        cueLbl.hidden = YES;
-    }
-    
-    [ZWTextViewUtil textViewDidChange:textView withMaxCount:self.fieldLength];
-}
-
 @end

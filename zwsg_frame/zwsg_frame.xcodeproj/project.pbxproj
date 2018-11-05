@@ -80,6 +80,7 @@
 		FF735282218BEEDC00D0BE05 /* EBCustomBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735273218BEEDC00D0BE05 /* EBCustomBannerView.m */; };
 		FF735283218BEEDC00D0BE05 /* EBEmptyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735275218BEEDC00D0BE05 /* EBEmptyWindow.m */; };
 		FF735284218BEEDC00D0BE05 /* EBMuteDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735277218BEEDC00D0BE05 /* EBMuteDetector.m */; };
+		FF983D6321901AE2008EB169 /* UITextView+ZWTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF983D6221901AE2008EB169 /* UITextView+ZWTextView.m */; };
 		FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9221815CA80064E598 /* ZWHelpUtil.m */; };
 		FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9521815F210064E598 /* ZWLoginUtil.m */; };
 		FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A972181627E0064E598 /* ZWHttpUtil.m */; };
@@ -268,6 +269,8 @@
 		FF735278218BEEDC00D0BE05 /* EBBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBannerView.h; sourceTree = "<group>"; };
 		FF735279218BEEDC00D0BE05 /* EBBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBannerViewController.h; sourceTree = "<group>"; };
 		FF73527A218BEEDC00D0BE05 /* EBCustomBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCustomBannerView.h; sourceTree = "<group>"; };
+		FF983D6121901AE2008EB169 /* UITextView+ZWTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZWTextView.h"; sourceTree = "<group>"; };
+		FF983D6221901AE2008EB169 /* UITextView+ZWTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ZWTextView.m"; sourceTree = "<group>"; };
 		FF990A9121815CA80064E598 /* ZWHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWHelpUtil.h; sourceTree = "<group>"; };
 		FF990A9221815CA80064E598 /* ZWHelpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWHelpUtil.m; sourceTree = "<group>"; };
 		FF990A9421815F210064E598 /* ZWLoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLoginUtil.h; sourceTree = "<group>"; };
@@ -455,6 +458,8 @@
 				FF990AC82182F7B20064E598 /* UIColor+ZWColor.m */,
 				FF7351D02187DF0600D0BE05 /* UIView+ZWView.h */,
 				FF7351D12187DF0600D0BE05 /* UIView+ZWView.m */,
+				FF983D6121901AE2008EB169 /* UITextView+ZWTextView.h */,
+				FF983D6221901AE2008EB169 /* UITextView+ZWTextView.m */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -981,6 +986,7 @@
 				FF735255218BEEAB00D0BE05 /* UIViewController+ZJScrollPageController.m in Sources */,
 				FF735258218BEEAB00D0BE05 /* ZJScrollPageView.m in Sources */,
 				FF7351CF2187DDA400D0BE05 /* BaseTableViewCell.m in Sources */,
+				FF983D6321901AE2008EB169 /* UITextView+ZWTextView.m in Sources */,
 				FF7351C92186D35500D0BE05 /* BaseTableViewController.m in Sources */,
 				FF7351C62186B02B00D0BE05 /* MainNavController.m in Sources */,
 				FF990A9F218166E70064E598 /* ZWJsonUtil.m in Sources */,

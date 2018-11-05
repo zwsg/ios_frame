@@ -1,8 +1,8 @@
 //___HEADERFILE___
 /*
  * zwsg_frame 
- * zwsg_frame.pch 
- * Created by xhb on 2018/8/28. 
+ * UITextView+ZWTextView.h 
+ * Created by xhb on 2018/11/5. 
  * QQ：692061841   	WeChat：zwsg_wechat
  * Copyright © 2018年 ZWSG. All rights reserved.
 
@@ -17,23 +17,19 @@
  *           ░     ░ ░      ░  ░
  */
 
-#ifndef zwsg_frame_pch
-#define zwsg_frame_pch
+#import <UIKit/UIKit.h>
 
-#import "AppConfig.h"
-#import "HttpConfig.h"
-#import "AppDelegate.h"
-//**********Utils*********
-#import "ZWJsonUtil.h"
-#import "ZWTipsUtil.h"
-#import "ZWStringUtil.h"
-#import "ZWHelpUtil.h"
-#import "ZWTimeUtil.h"
-#import "ZWWordWrapUtil.h"
-//**********Category******
-#import "UIColor+ZWColor.h"
-#import "NSDictionary+ZWDictionary.h"
-#import "UIImageView+WebCache.h"
-#import "UIView+ZWView.h"
-#import "UITextView+ZWTextView.h"
-#endif /* zwsg_frame_pch */
+@interface UITextView (ZWTextView)
+/**
+ textView placeholder text
+ */
+@property (nonatomic ,copy)NSString *placeholder;
+/**
+ textView placeholder textColor
+ */
+@property (nonatomic ,strong)NSDictionary *placeholderAttributes;
+/**
+ the max inputLenth
+ */
+@property (nonatomic ,assign)NSInteger maxInputLength;
+@end
