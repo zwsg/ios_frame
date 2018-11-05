@@ -24,7 +24,6 @@
     self.selectionStyle=UITableViewCellSelectionStyleNone;
     self.height=self.cellHeigh=FORM_ITEM_HEIGHT;
     self.isRequire=YES;//默认是必填
-    self.fieldLength=20;
 }
 
 -(instancetype)init{
