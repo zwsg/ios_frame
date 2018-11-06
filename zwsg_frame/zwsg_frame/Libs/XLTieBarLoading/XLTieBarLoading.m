@@ -65,8 +65,8 @@ static XLTieBarLoading *loading = nil;
 -(void)buildUI
 {
     //画了个圆
-    _container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
-    _container.center = CGPointMake(self.bounds.size.width/2, self.bounds.size.height/2);
+    _container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ZWScale(60), ZWScale(60))];
+    _container.center = CGPointMake(self.bounds.size.width/2, self.bounds.size.height/2-TopHeight/2);
     _container.layer.cornerRadius = _container.bounds.size.width/2.0f;
     _container.layer.masksToBounds = true;
     [self addSubview:_container];
