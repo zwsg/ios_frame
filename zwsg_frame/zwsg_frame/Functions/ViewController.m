@@ -42,16 +42,20 @@
     [self.view addSubview:btn4];
 }
 -(void)test1{
-    [[ZWTipsUtil sharedUtil] showSuccess:@""];
+    [[ZWTipsUtil sharedUtil] showSuccess:@"成功！"];
 }
 -(void)test2{
-    [[ZWTipsUtil sharedUtil] showWarm:@""];
+    [[ZWTipsUtil sharedUtil] showWarm:@"警告！"];
 }
 -(void)test3{
-    [[ZWTipsUtil sharedUtil] showError:@""];
+    [[ZWTipsUtil sharedUtil] showError:@"失败！"];
 }
 -(void)test4{
     [[ZWTipsUtil sharedUtil] showProgress];
+    [NSTimer scheduledTimerWithTimeInterval:5.0f target:self selector:@selector(dismissLoading) userInfo:nil repeats:NO];
+}
+-(void)dismissLoading{
+     [[ZWTipsUtil sharedUtil] dismiss];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

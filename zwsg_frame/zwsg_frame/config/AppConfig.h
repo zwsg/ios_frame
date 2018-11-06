@@ -80,6 +80,8 @@
 #define FORM_ITEM_HEIGHT 50
 //表单元素左边距离
 #define FORM_PADDING_LEFT 10
+//表单icon宽高
+#define FORM_ICON_WIDTH ZWScale(20)
 //表单标题宽度
 #define FORM_TITLE_WIDTH 75
 //表单实际控件距离标题控件距离

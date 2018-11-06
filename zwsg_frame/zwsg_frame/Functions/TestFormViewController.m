@@ -45,6 +45,7 @@
         }];
         [datepicker show];
     }]];
+    [sec1Arr addObject:[[TextFieldCell alloc] initIcon:@"1.png" title:@"带图标" key:@""]];
     [self.cells addObject:sec1Arr];
     [self setFootV];
     [self.tableView reloadData];

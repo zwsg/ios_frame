@@ -26,7 +26,16 @@
 @end
 @implementation TextFieldCell
 -(void)setUI{
-    UILabel *lblTitle = [[UILabel alloc]initWithFrame:CGRectMake(FORM_PADDING_LEFT, 0, FORM_TITLE_WIDTH, 0)];
+    UILabel *lblTitle = [[UILabel alloc]init];
+    if (![ZWStringUtil isNullOrEmpty:self.iconPath]) {
+        UIImageView *icon = [[UIImageView alloc]initWithFrame:CGRectMake(FORM_PADDING_LEFT, 0, FORM_ICON_WIDTH, FORM_ICON_WIDTH)];
+        icon.image = [UIImage imageNamed:self.iconPath];
+        icon.centerY=self.centerY;
+        [self.contentView addSubview:icon];
+        lblTitle.frame = CGRectMake(icon.x+icon.width+5, 0, FORM_TITLE_WIDTH, 0);
+    }else{
+        lblTitle.frame = CGRectMake(FORM_PADDING_LEFT, 0, FORM_TITLE_WIDTH, 0);
+    }
     lblTitle.font = [UIFont systemFontOfSize:FONT_SIZE_DEFAULT];
     lblTitle.textColor = [UIColor colorWithHexString:COLR_MAIN_TITLE];
     lblTitle.text=self.title;
@@ -66,6 +75,12 @@
 }
 -(instancetype)initTitle:(NSString *)title key:(NSString *)key{
     if (self = [super initTitle:title key:key]) {
+        [self setUI];
+    }
+    return self;
+}
+-(instancetype)initIcon:(NSString *)icon title:(NSString *)title key:(NSString *)key{
+    if (self = [super initIcon:icon title:title key:key]) {
         [self setUI];
     }
     return self;
