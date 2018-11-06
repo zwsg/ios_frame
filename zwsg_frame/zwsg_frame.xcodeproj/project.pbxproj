@@ -81,6 +81,8 @@
 		FF735283218BEEDC00D0BE05 /* EBEmptyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735275218BEEDC00D0BE05 /* EBEmptyWindow.m */; };
 		FF735284218BEEDC00D0BE05 /* EBMuteDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = FF735277218BEEDC00D0BE05 /* EBMuteDetector.m */; };
 		FF983D6321901AE2008EB169 /* UITextView+ZWTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF983D6221901AE2008EB169 /* UITextView+ZWTextView.m */; };
+		FF983D6721912CF1008EB169 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF983D6521912CF1008EB169 /* 1.png */; };
+		FF983D6821912CF1008EB169 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF983D6621912CF1008EB169 /* 2.png */; };
 		FF990A9321815CA80064E598 /* ZWHelpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9221815CA80064E598 /* ZWHelpUtil.m */; };
 		FF990A9621815F210064E598 /* ZWLoginUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A9521815F210064E598 /* ZWLoginUtil.m */; };
 		FF990A992181627E0064E598 /* ZWHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990A972181627E0064E598 /* ZWHttpUtil.m */; };
@@ -95,8 +97,6 @@
 		FF990AB72182E68E0064E598 /* bannerTipWarm@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AB12182E68E0064E598 /* bannerTipWarm@3x.png */; };
 		FF990AB82182E68E0064E598 /* bannerTipSuccess@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AB22182E68E0064E598 /* bannerTipSuccess@3x.png */; };
 		FF990AB92182E68E0064E598 /* bannerTipFaild@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AB32182E68E0064E598 /* bannerTipFaild@2x.png */; };
-		FF990AC42182F4ED0064E598 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AC02182F4ED0064E598 /* 1.png */; };
-		FF990AC52182F4ED0064E598 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF990AC12182F4ED0064E598 /* 2.png */; };
 		FF990AC62182F4ED0064E598 /* XLTieBarLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AC32182F4ED0064E598 /* XLTieBarLoading.m */; };
 		FF990AC92182F7B20064E598 /* UIColor+ZWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990AC82182F7B20064E598 /* UIColor+ZWColor.m */; };
 		FF990ACC218302580064E598 /* ZWTimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF990ACB218302580064E598 /* ZWTimeUtil.m */; };
@@ -271,6 +271,8 @@
 		FF73527A218BEEDC00D0BE05 /* EBCustomBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCustomBannerView.h; sourceTree = "<group>"; };
 		FF983D6121901AE2008EB169 /* UITextView+ZWTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZWTextView.h"; sourceTree = "<group>"; };
 		FF983D6221901AE2008EB169 /* UITextView+ZWTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ZWTextView.m"; sourceTree = "<group>"; };
+		FF983D6521912CF1008EB169 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		FF983D6621912CF1008EB169 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		FF990A9121815CA80064E598 /* ZWHelpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWHelpUtil.h; sourceTree = "<group>"; };
 		FF990A9221815CA80064E598 /* ZWHelpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWHelpUtil.m; sourceTree = "<group>"; };
 		FF990A9421815F210064E598 /* ZWLoginUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLoginUtil.h; sourceTree = "<group>"; };
@@ -293,8 +295,6 @@
 		FF990AB12182E68E0064E598 /* bannerTipWarm@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerTipWarm@3x.png"; sourceTree = "<group>"; };
 		FF990AB22182E68E0064E598 /* bannerTipSuccess@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerTipSuccess@3x.png"; sourceTree = "<group>"; };
 		FF990AB32182E68E0064E598 /* bannerTipFaild@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerTipFaild@2x.png"; sourceTree = "<group>"; };
-		FF990AC02182F4ED0064E598 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		FF990AC12182F4ED0064E598 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		FF990AC22182F4ED0064E598 /* XLTieBarLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTieBarLoading.h; sourceTree = "<group>"; };
 		FF990AC32182F4ED0064E598 /* XLTieBarLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTieBarLoading.m; sourceTree = "<group>"; };
 		FF990AC72182F7B20064E598 /* UIColor+ZWColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZWColor.h"; sourceTree = "<group>"; };
@@ -771,8 +771,8 @@
 		FF990ABF2182F4ED0064E598 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				FF990AC02182F4ED0064E598 /* 1.png */,
-				FF990AC12182F4ED0064E598 /* 2.png */,
+				FF983D6521912CF1008EB169 /* 1.png */,
+				FF983D6621912CF1008EB169 /* 2.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -885,13 +885,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF990AC42182F4ED0064E598 /* 1.png in Resources */,
 				FF551B05213524BF001EC09F /* Assets.xcassets in Resources */,
 				FF73527D218BEEDC00D0BE05 /* EBBannerView.xib in Resources */,
-				FF990AC52182F4ED0064E598 /* 2.png in Resources */,
+				FF983D6821912CF1008EB169 /* 2.png in Resources */,
 				FF990AB62182E68E0064E598 /* bannerTipSuccess@2x.png in Resources */,
 				FF990AB42182E68E0064E598 /* bannerTipWarm@2x.png in Resources */,
 				FF990AB52182E68E0064E598 /* bannerTipFaild@3x.png in Resources */,
+				FF983D6721912CF1008EB169 /* 1.png in Resources */,
 				FF735240218BEE9300D0BE05 /* WTCarKeyboardBack.png in Resources */,
 				FF990AB72182E68E0064E598 /* bannerTipWarm@3x.png in Resources */,
 				FF990AB92182E68E0064E598 /* bannerTipFaild@2x.png in Resources */,

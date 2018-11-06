@@ -84,7 +84,7 @@
         end(error.description);
     }];
 }
-+(void)PostNoProgress:(NSString*)url widthParm:(NSDictionary*)parm widthSuccess:(void (^)(NSObject*result,NSString*page_count))result withFaild:(void (^)(NSString*faild))faild widthEnd:(void (^)(NSString*end))end{
++(void)PostNoProgress:(NSString*)url widthParm:(NSDictionary*)parm widthSuccess:(void (^)(NSObject*result))result withFaild:(void (^)(NSString*faild))faild widthEnd:(void (^)(NSString*end))end{
     NSMutableDictionary * mutableDic=[NSMutableDictionary dictionary];
     if(parm==nil){
         mutableDic=[NSMutableDictionary dictionary];
@@ -116,22 +116,16 @@
         NSInteger statu= [jsonResult getInt:@"status"];
         if (statu == 1) //成功
         {
-            NSString *cnt = @"";
-            if (![ZWStringUtil isNullOrEmpty:[jsonResult getString:@"page_count"]]) {
-                cnt = [jsonResult getString:@"page_count"];
-            }
-            result(jsonResult[@"data"],cnt);
+            result(jsonResult[@"data"]);
         }
         else
         {
-//            [[MsgUtil getInsteance]showError:[jsonResult getString:@"info"]];
             faild(jsonResult.description);
         }
         
         end(jsonResult.description);
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-//        [[MsgUtil getInsteance]showWarm:@"网络错误,请检查网络！"];
         faild(error.description);
         end(error.description);
     }];
