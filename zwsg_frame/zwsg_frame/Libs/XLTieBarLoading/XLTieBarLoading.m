@@ -64,6 +64,12 @@ static XLTieBarLoading *loading = nil;
 
 -(void)buildUI
 {
+    UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+    UIVisualEffectView *HUDView = [[UIVisualEffectView alloc] initWithEffect:blur];
+    HUDView.alpha = 0.5f;
+    HUDView.frame = self.bounds;
+    [self addSubview:HUDView];
+    
     //画了个圆
     _container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ZWScale(60), ZWScale(60))];
     _container.center = CGPointMake(self.bounds.size.width/2, self.bounds.size.height/2-TopHeight/2);

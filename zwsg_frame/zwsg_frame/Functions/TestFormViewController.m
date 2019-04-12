@@ -35,7 +35,7 @@
 -(void)setForm{
     NSMutableArray *sec1Arr = [NSMutableArray array];
     [sec1Arr addObject:[[TextFieldCell alloc] initTitle:@"测试textField" value:@"18355161328" key:@"tf" isRequire:YES placeHolder:@"测试placeHolder" length:11 keyboardType:@"Phone"]];
-    [sec1Arr addObject:[[TextViewCell alloc] initTitle:@"测试textView" key:@"tv"]];
+    [sec1Arr addObject:[[TextViewCell alloc] initTitle:@"测试textView" key:@"tv" length:10]];
     [sec1Arr addObject:[[[SelectCell alloc] initTitle:@"测试selectCell" value:@"二道湾的无多翁多翁多翁多翁多翁多翁多翁的无多翁多无多翁的无多翁多dwdwdwcswcdscsdcdscdscds" key:@"select" cellValue:@"123456"] setClick:^(BaseFormTableViewCell *cell, UIView *valueView) {
         UILabel *lblValue = (UILabel*)valueView;
         WSDatePickerView *datepicker = [[WSDatePickerView alloc] initWithDateStyle:DateStyleShowYearMonthDayHourMinute CompleteBlock:^(NSDate *selectDate) {
@@ -45,7 +45,7 @@
         }];
         [datepicker show];
     }]];
-    [sec1Arr addObject:[[TextFieldCell alloc] initIcon:@"1.png" title:@"带图标" key:@""]];
+    [sec1Arr addObject:[[TextFieldCell alloc] initIcon:@"1.png" title:@"带图标" key:@"icon"]];
     [self.cells addObject:sec1Arr];
     [self setFootV];
     [self.tableView reloadData];
